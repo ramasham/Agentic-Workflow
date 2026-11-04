@@ -1,0 +1,188 @@
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:05] "GET / HTTP/1.1" 200 -
+
+Running 34 tests using 3 workers
+
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] code 404, message File not found
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET /favicon.ico HTTP/1.1" 404 -
+  ✓   1 [mobile] › 05-tests/tests/portfolio.spec.js:26:1 › homepage presents its main headings and content (505ms)
+  ✘   2 [mobile] › 05-tests/tests/portfolio.spec.js:41:1 › site icon is available to browsers (458ms)
+  ✓   3 [mobile] › 05-tests/tests/portfolio.spec.js:67:3 › brand navigates to #home (520ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET /script.js HTTP/1.1" 200 -
+  ✓   4 [mobile] › 05-tests/tests/portfolio.spec.js:67:3 › navigation Home navigates to #home (188ms)
+  ✓   5 [mobile] › 05-tests/tests/portfolio.spec.js:67:3 › navigation Projects navigates to #projects (206ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:07] "GET /script.js HTTP/1.1" 200 -
+  ✓   6 [mobile] › 05-tests/tests/portfolio.spec.js:67:3 › navigation Skills navigates to #skills (195ms)
+  ✓   7 [mobile] › 05-tests/tests/portfolio.spec.js:67:3 › navigation Contact navigates to #contact (197ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /script.js HTTP/1.1" 200 -
+  ✓   9 [mobile] › 05-tests/tests/portfolio.spec.js:67:3 › featured project navigates to #project-webserv (221ms)
+  ✓   8 [mobile] › 05-tests/tests/portfolio.spec.js:67:3 › primary call to action navigates to #projects (269ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /styles.css HTTP/1.1" 200 -
+  ✓  11 [mobile] › 05-tests/tests/portfolio.spec.js:67:3 › skill ft_malloc navigates to #project-malloc (202ms)
+  ✓  10 [mobile] › 05-tests/tests/portfolio.spec.js:67:3 › navigation About navigates to #about (354ms)
+  ✓  12 [mobile] › 05-tests/tests/portfolio.spec.js:67:3 › skill pipex navigates to #project-pipex (220ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /script.js HTTP/1.1" 200 -
+  ✓  13 [mobile] › 05-tests/tests/portfolio.spec.js:67:3 › skill webserv navigates to #project-webserv (203ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET / HTTP/1.1" 200 -
+  ✓  15 [mobile] › 05-tests/tests/portfolio.spec.js:67:3 › footer navigates to #home (209ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /script.js HTTP/1.1" 200 -
+  ✓  14 [mobile] › 05-tests/tests/portfolio.spec.js:67:3 › skill Inception navigates to #project-inception (242ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:08] "GET /script.js HTTP/1.1" 200 -
+  ✓  16 [mobile] › 05-tests/tests/portfolio.spec.js:76:1 › skip link is keyboard accessible and navigates to the main content (203ms)
+  ✓  17 [mobile] › 05-tests/tests/portfolio.spec.js:87:1 › layout adapts to the viewport without horizontal overflow (205ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] code 404, message File not found
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET /favicon.ico HTTP/1.1" 404 -
+  ✓  18 [desktop] › 05-tests/tests/portfolio.spec.js:26:1 › homepage presents its main headings and content (319ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET /script.js HTTP/1.1" 200 -
+  ✘  19 [desktop] › 05-tests/tests/portfolio.spec.js:41:1 › site icon is available to browsers (264ms)
+  ✓  20 [desktop] › 05-tests/tests/portfolio.spec.js:67:3 › brand navigates to #home (290ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:09] "GET /script.js HTTP/1.1" 200 -
+  ✓  21 [desktop] › 05-tests/tests/portfolio.spec.js:67:3 › navigation Home navigates to #home (214ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /script.js HTTP/1.1" 200 -
+  ✓  22 [desktop] › 05-tests/tests/portfolio.spec.js:67:3 › navigation Projects navigates to #projects (179ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /styles.css HTTP/1.1" 200 -
+  ✓  23 [desktop] › 05-tests/tests/portfolio.spec.js:67:3 › navigation Skills navigates to #skills (191ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /script.js HTTP/1.1" 200 -
+  ✓  24 [desktop] › 05-tests/tests/portfolio.spec.js:67:3 › navigation Contact navigates to #contact (195ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /script.js HTTP/1.1" 200 -
+  ✓  25 [desktop] › 05-tests/tests/portfolio.spec.js:67:3 › primary call to action navigates to #projects (220ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /script.js HTTP/1.1" 200 -
+  ✓  27 [desktop] › 05-tests/tests/portfolio.spec.js:67:3 › featured project navigates to #project-webserv (245ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /styles.css HTTP/1.1" 200 -
+  ✓  28 [desktop] › 05-tests/tests/portfolio.spec.js:67:3 › skill ft_malloc navigates to #project-malloc (218ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET / HTTP/1.1" 200 -
+  ✓  26 [desktop] › 05-tests/tests/portfolio.spec.js:67:3 › navigation About navigates to #about (294ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /script.js HTTP/1.1" 200 -
+  ✓  29 [desktop] › 05-tests/tests/portfolio.spec.js:67:3 › skill pipex navigates to #project-pipex (207ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /script.js HTTP/1.1" 200 -
+  ✓  30 [desktop] › 05-tests/tests/portfolio.spec.js:67:3 › skill webserv navigates to #project-webserv (199ms)
+  ✓  31 [desktop] › 05-tests/tests/portfolio.spec.js:67:3 › skill Inception navigates to #project-inception (188ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET / HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET /script.js HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:10] "GET / HTTP/1.1" 200 -
+  ✓  32 [desktop] › 05-tests/tests/portfolio.spec.js:67:3 › footer navigates to #home (204ms)
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:11] "GET /styles.css HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [04/Nov/2026 19:32:11] "GET /script.js HTTP/1.1" 200 -
+  ✓  33 [desktop] › 05-tests/tests/portfolio.spec.js:76:1 › skip link is keyboard accessible and navigates to the main content (198ms)
+  ✓  34 [desktop] › 05-tests/tests/portfolio.spec.js:87:1 › layout adapts to the viewport without horizontal overflow (193ms)
+
+
+  1) [mobile] › 05-tests/tests/portfolio.spec.js:41:1 › site icon is available to browsers ─────────
+
+    Error: Site icon returned HTTP 404: http://127.0.0.1:8765/favicon.ico
+
+    expect(received).toBeTruthy()
+
+    Received: false
+
+      44 |   const iconUrl = await icon.count() ? await icon.getAttribute('href') : null;
+      45 |   const response = await request.get(new URL(iconUrl || '/favicon.ico', page.url()).href);
+    > 46 |   expect(response.ok(), `Site icon returned HTTP ${response.status()}: ${response.url()}`).toBeTruthy();
+         |                                                                                            ^
+      47 |   expect(response.headers()['content-type']).toMatch(/^image\//i);
+      48 | });
+      49 |
+        at /home/rsham/Agentic-Workflow/05-tests/tests/portfolio.spec.js:46:92
+
+    Error Context: test-results/portfolio-site-icon-is-available-to-browsers-mobile/error-context.md
+
+  2) [desktop] › 05-tests/tests/portfolio.spec.js:41:1 › site icon is available to browsers ────────
+
+    Error: Site icon returned HTTP 404: http://127.0.0.1:8765/favicon.ico
+
+    expect(received).toBeTruthy()
+
+    Received: false
+
+      44 |   const iconUrl = await icon.count() ? await icon.getAttribute('href') : null;
+      45 |   const response = await request.get(new URL(iconUrl || '/favicon.ico', page.url()).href);
+    > 46 |   expect(response.ok(), `Site icon returned HTTP ${response.status()}: ${response.url()}`).toBeTruthy();
+         |                                                                                            ^
+      47 |   expect(response.headers()['content-type']).toMatch(/^image\//i);
+      48 | });
+      49 |
+        at /home/rsham/Agentic-Workflow/05-tests/tests/portfolio.spec.js:46:92
+
+    Error Context: test-results/portfolio-site-icon-is-available-to-browsers-desktop/error-context.md
+
+  2 failed
+    [mobile] › 05-tests/tests/portfolio.spec.js:41:1 › site icon is available to browsers ──────────
+    [desktop] › 05-tests/tests/portfolio.spec.js:41:1 › site icon is available to browsers ─────────
+  32 passed (6.1s)

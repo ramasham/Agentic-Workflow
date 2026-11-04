@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ramasham/Agentic-Workflow#readme",
   "devDependencies": {
-    "@playwright/mcp": "0.0.84"
+    "@playwright/mcp": "0.0.84",
+    "@playwright/test": "1.64.1"
   }
 }
