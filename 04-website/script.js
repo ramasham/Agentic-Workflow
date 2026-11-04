@@ -16,3 +16,17 @@ if ('IntersectionObserver' in window) {
 
   document.querySelectorAll('main section[id]').forEach((section) => observer.observe(section));
 }
+
+// A subtle visual acknowledgement; cards remain visible without JavaScript.
+if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+
+  document.querySelectorAll('[data-reveal]').forEach((element) => revealObserver.observe(element));
+}

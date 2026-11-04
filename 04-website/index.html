@@ -12,7 +12,7 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#home">Developer<span> portfolio</span></a>
+      <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">[ ]</span> Inside the System</a>
       <nav aria-label="Main navigation">
         <ul class="nav-list">
           <li><a href="#home">Home</a></li>
@@ -26,17 +26,22 @@
   </header>
 
   <main id="main">
-    <section class="hero container" id="home" aria-labelledby="home-title">
-      <div class="hero-copy">
-        <h1 id="home-title">Building from the <span>inside out.</span></h1>
-        <p class="hero-description">A computer science portfolio exploring backend engineering, systems programming, and how computers work.</p>
-        <a class="button" href="#projects">Explore projects <span aria-hidden="true">&rarr;</span></a>
-      </div>
-      <div class="featured-project">
-        <p class="featured-label">Featured project</p>
-        <h2>webserv</h2>
-        <p>An implementation of an HTTP/1.0 server.</p>
-        <a class="text-link" href="#project-webserv">View project overview <span aria-hidden="true">&rarr;</span></a>
+    <section class="hero" id="home" aria-labelledby="home-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 id="home-title">Curious about<br><em>what's underneath.</em></h1>
+          <p class="hero-context">Computer science <span aria-hidden="true">/</span> Backend &amp; systems</p>
+          <p class="hero-description">A computer science student exploring backend engineering, operating systems, and how computers work from the inside out.</p>
+          <a class="button" href="#projects">Explore the work <span aria-hidden="true">&rarr;</span></a>
+        </div>
+        <div class="system-art" aria-hidden="true">
+          <div class="system-orbit orbit-one"></div><div class="system-orbit orbit-two"></div>
+          <div class="system-core"><span>inside</span><strong>the<br>system<span>.</span></strong></div>
+          <div class="system-node node-memory"><span></span><span></span><span></span><span></span></div>
+          <div class="system-node node-flow"><i></i><i></i><i></i></div>
+          <div class="system-cross cross-one">+</div><div class="system-cross cross-two">+</div>
+        </div>
+        <a class="hero-project" href="#project-webserv"><span>Featured work</span><strong>webserv</strong><span>HTTP/1.0 server <b aria-hidden="true">&rarr;</b></span></a>
       </div>
     </section>
 
@@ -50,36 +55,29 @@
       </div>
     </section>
 
-    <section class="section container" id="projects" aria-labelledby="projects-title">
-      <div class="section-heading">
-        <h2 id="projects-title">Selected projects.</h2>
-        <p>A closer look at work across backend and systems programming.</p>
-      </div>
-      <div class="project-list">
-        <article class="project" id="project-webserv">
-          <div><p class="project-category">Backend</p><h3>webserv</h3></div>
-          <p>Implemented an HTTP/1.0 server.</p>
-        </article>
-        <article class="project">
-          <div><p class="project-category">Memory management</p><h3>ft_malloc</h3></div>
-          <p>Implemented custom memory allocation functions in C, including malloc, free, and realloc.</p>
-        </article>
-        <article class="project">
-          <div><p class="project-category">Systems programming</p><h3>minishell</h3></div>
-          <p>Built a Unix-like shell in C.</p>
-        </article>
-        <article class="project">
-          <div><p class="project-category">Processes</p><h3>pipex</h3></div>
-          <p>Worked with Unix pipes and process execution.</p>
-        </article>
-        <article class="project">
-          <div><p class="project-category">Containers</p><h3>Inception</h3></div>
-          <p>Worked with Docker containers.</p>
-        </article>
-        <article class="project">
-          <div><p class="project-category">Real-time application</p><h3>ft_transcendence</h3></div>
-          <p>Developed a real-time quiz platform.</p>
-        </article>
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading"><h2 id="projects-title">Built to understand.</h2><p>Selected work across backend and systems programming.</p></div>
+        <div class="featured-grid">
+          <article class="project-card project-server" id="project-webserv" data-reveal>
+            <div class="project-content"><p class="project-category">Backend / HTTP</p><h3>webserv</h3><p>Implemented an HTTP/1.0 server.</p></div>
+            <div class="server-visual" aria-hidden="true"><span>request</span><div class="server-path"><i></i><i></i><i></i></div><strong>HTTP</strong><div class="server-path reverse"><i></i><i></i><i></i></div><span>response</span></div>
+          </article>
+          <article class="project-card project-memory" id="project-malloc" data-reveal>
+            <div class="project-content"><p class="project-category">Systems / Memory</p><h3>ft_malloc</h3><p>Implemented custom memory allocation functions in C, including malloc, free, and realloc.</p></div>
+            <div class="memory-visual" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          </article>
+          <article class="project-card project-shell" id="project-minishell" data-reveal>
+            <div class="project-content"><p class="project-category">Systems / Processes</p><h3>minishell</h3><p>Built a Unix-like shell in C.</p></div>
+            <div class="shell-visual" aria-hidden="true"><span>input</span><div class="shell-line"></div><span>process</span><div class="shell-line"></div><span>output</span></div>
+          </article>
+        </div>
+        <h3 class="more-heading">More explorations</h3>
+        <div class="more-projects">
+          <article id="project-pipex"><h4>pipex</h4><p>Worked with Unix pipes and process execution.</p></article>
+          <article id="project-inception"><h4>Inception</h4><p>Worked with Docker containers.</p></article>
+          <article id="project-transcendence"><h4>ft_transcendence</h4><p>Developed a real-time quiz platform.</p></article>
+        </div>
       </div>
     </section>
 
@@ -90,9 +88,10 @@
           <p class="section-intro">Technologies and concepts reflected in my project work.</p>
         </div>
         <div class="skill-groups">
-          <div><h3>Programming</h3><p>C</p></div>
-          <div><h3>Systems</h3><p>Unix pipes, process execution, memory allocation</p></div>
-          <div><h3>Backend &amp; infrastructure</h3><p>HTTP/1.0, Docker containers</p></div>
+          <div><h3>Language</h3><p>C</p><a href="#project-malloc">Seen in ft_malloc &rarr;</a></div>
+          <div><h3>Systems</h3><p>Memory allocation, Unix pipes, process execution</p><a href="#project-pipex">Seen in pipex &rarr;</a></div>
+          <div><h3>Backend</h3><p>HTTP/1.0</p><a href="#project-webserv">Seen in webserv &rarr;</a></div>
+          <div><h3>Infrastructure</h3><p>Docker containers</p><a href="#project-inception">Seen in Inception &rarr;</a></div>
         </div>
       </div>
     </section>
