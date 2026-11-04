@@ -1,0 +1,130 @@
+- generic [active] [ref=f6e1]:
+  - link "Skip to content" [ref=f6e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f6e3]:
+    - generic [ref=f6e4]:
+      - link "Inside the System" [ref=f6e5] [cursor=pointer]:
+        - /url: "#home"
+        - generic [aria-hidden] [ref=f6e6]: "[ ]"
+        - text: Inside the System
+      - navigation "Main navigation" [ref=f6e7]:
+        - list [ref=f6e8]:
+          - listitem [ref=f6e9]:
+            - link "Home" [ref=f6e10] [cursor=pointer]:
+              - /url: "#home"
+          - listitem [ref=f6e11]:
+            - link "About" [ref=f6e12] [cursor=pointer]:
+              - /url: "#about"
+          - listitem [ref=f6e13]:
+            - link "Projects" [ref=f6e14] [cursor=pointer]:
+              - /url: "#projects"
+          - listitem [ref=f6e15]:
+            - link "Skills" [ref=f6e16] [cursor=pointer]:
+              - /url: "#skills"
+          - listitem [ref=f6e17]:
+            - link "Contact" [ref=f6e18] [cursor=pointer]:
+              - /url: "#contact"
+  - main [ref=f6e19]:
+    - region [ref=f6e20]:
+      - generic [ref=f6e21]:
+        - generic [ref=f6e22]:
+          - heading [level=1] [ref=f6e23]:
+            - text: Curious about
+            - emphasis [ref=f6e24]: what's underneath.
+          - paragraph [ref=f6e25]: Computer science / Backend & systems
+          - paragraph [ref=f6e26]: A computer science student exploring backend engineering, operating systems, and how computers work from the inside out.
+          - link "Explore the work" [ref=f6e27] [cursor=pointer]:
+            - /url: "#projects"
+            - text: Explore the work
+            - generic [aria-hidden] [ref=f6e28]: →
+        - generic [aria-hidden] [ref=f6e29]:
+          - generic [ref=f6e32]:
+            - generic [ref=f6e33]: inside
+            - strong [ref=f6e34]: the system.
+          - generic [ref=f6e44]: +
+          - generic [ref=f6e45]: +
+        - link "Featured work webserv HTTP/1.0 server" [ref=f6e46] [cursor=pointer]:
+          - /url: "#project-webserv"
+          - generic [ref=f6e47]: Featured work
+          - strong [ref=f6e48]: webserv
+          - generic [ref=f6e49]: HTTP/1.0 server →
+    - region [ref=f6e50]:
+      - generic [ref=f6e51]:
+        - heading "A little about me." [level=2] [ref=f6e52]
+        - generic [ref=f6e53]:
+          - paragraph [ref=f6e54]: I'm a fourth-year Computer Science student who has completed the Common Core at 42 Amman.
+          - paragraph [ref=f6e55]: I'm interested in backend engineering, operating systems, algorithms, and understanding how computers work internally. My projects are a way to explore these ideas through building.
+    - region [ref=f6e56]:
+      - generic [ref=f6e57]:
+        - generic [ref=f6e58]:
+          - heading "Built to understand." [level=2] [ref=f6e59]
+          - paragraph [ref=f6e60]: Selected work across backend and systems programming.
+        - generic [ref=f6e61]:
+          - article [ref=f6e62]:
+            - generic [ref=f6e63]:
+              - paragraph [ref=f6e64]: Backend / HTTP
+              - heading "webserv" [level=3] [ref=f6e65]
+              - paragraph [ref=f6e66]: Implemented an HTTP/1.0 server.
+            - generic [aria-hidden] [ref=f6e67]:
+              - generic [ref=f6e68]: request
+              - strong [ref=f6e73]: HTTP
+              - generic [ref=f6e78]: response
+          - article [ref=f6e79]:
+            - generic [ref=f6e80]:
+              - paragraph [ref=f6e81]: Systems / Memory
+              - heading "ft_malloc" [level=3] [ref=f6e82]
+              - paragraph [ref=f6e83]: Implemented custom memory allocation functions in C, including malloc, free, and realloc.
+          - article [ref=f6e97]:
+            - generic [ref=f6e98]:
+              - paragraph [ref=f6e99]: Systems / Processes
+              - heading "minishell" [level=3] [ref=f6e100]
+              - paragraph [ref=f6e101]: Built a Unix-like shell in C.
+            - generic [aria-hidden] [ref=f6e102]:
+              - generic [ref=f6e103]: input
+              - generic [ref=f6e105]: process
+              - generic [ref=f6e107]: output
+        - heading "More explorations" [level=3] [ref=f6e108]
+        - generic [ref=f6e109]:
+          - article [ref=f6e110]:
+            - heading "pipex" [level=4] [ref=f6e111]
+            - paragraph [ref=f6e112]: Worked with Unix pipes and process execution.
+          - article [ref=f6e113]:
+            - heading "Inception" [level=4] [ref=f6e114]
+            - paragraph [ref=f6e115]: Worked with Docker containers.
+          - article [ref=f6e116]:
+            - heading "ft_transcendence" [level=4] [ref=f6e117]
+            - paragraph [ref=f6e118]: Developed a real-time quiz platform.
+    - region [ref=f6e119]:
+      - generic [ref=f6e120]:
+        - generic [ref=f6e121]:
+          - heading "Areas of practice." [level=2] [ref=f6e122]
+          - paragraph [ref=f6e123]: Technologies and concepts reflected in my project work.
+        - generic [ref=f6e124]:
+          - generic [ref=f6e125]:
+            - heading "Language" [level=3] [ref=f6e126]
+            - paragraph [ref=f6e127]: C
+            - link "Seen in ft_malloc →" [ref=f6e128] [cursor=pointer]:
+              - /url: "#project-malloc"
+          - generic [ref=f6e129]:
+            - heading "Systems" [level=3] [ref=f6e130]
+            - paragraph [ref=f6e131]: Memory allocation, Unix pipes, process execution
+            - link "Seen in pipex →" [ref=f6e132] [cursor=pointer]:
+              - /url: "#project-pipex"
+          - generic [ref=f6e133]:
+            - heading "Backend" [level=3] [ref=f6e134]
+            - paragraph [ref=f6e135]: HTTP/1.0
+            - link "Seen in webserv →" [ref=f6e136] [cursor=pointer]:
+              - /url: "#project-webserv"
+          - generic [ref=f6e137]:
+            - heading "Infrastructure" [level=3] [ref=f6e138]
+            - paragraph [ref=f6e139]: Docker containers
+            - link "Seen in Inception →" [ref=f6e140] [cursor=pointer]:
+              - /url: "#project-inception"
+    - region [ref=f6e141]:
+      - heading "Let's connect." [level=2] [ref=f6e142]
+      - paragraph [ref=f6e143]: Contact details will be added here when available.
+  - contentinfo [ref=f6e144]:
+    - generic [ref=f6e145]:
+      - paragraph [ref=f6e146]: Developer portfolio
+      - link "Back to top ↑" [ref=f6e147] [cursor=pointer]:
+        - /url: "#home"

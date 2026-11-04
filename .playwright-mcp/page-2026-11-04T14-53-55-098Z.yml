@@ -1,0 +1,108 @@
+- generic [active] [ref=f5e1]:
+  - link "Skip to content" [ref=f5e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f5e3]:
+    - generic [ref=f5e4]:
+      - link "Computer Science portfolio" [ref=f5e5] [cursor=pointer]:
+        - /url: "#home"
+        - text: Computer Science
+        - generic [ref=f5e6]: portfolio
+      - navigation "Main navigation" [ref=f5e7]:
+        - list [ref=f5e8]:
+          - listitem [ref=f5e9]:
+            - link "Home" [ref=f5e10] [cursor=pointer]:
+              - /url: "#home"
+          - listitem [ref=f5e11]:
+            - link "About" [ref=f5e12] [cursor=pointer]:
+              - /url: "#about"
+          - listitem [ref=f5e13]:
+            - link "Projects" [ref=f5e14] [cursor=pointer]:
+              - /url: "#projects"
+          - listitem [ref=f5e15]:
+            - link "Skills" [ref=f5e16] [cursor=pointer]:
+              - /url: "#skills"
+          - listitem [ref=f5e17]:
+            - link "Contact" [ref=f5e18] [cursor=pointer]:
+              - /url: "#contact"
+  - main [ref=f5e19]:
+    - region [ref=f5e20]:
+      - generic [ref=f5e21]:
+        - heading "Backend engineering & systems programming." [level=1] [ref=f5e22]
+        - paragraph [ref=f5e23]: A computer science student exploring how computers work, from the inside out.
+        - link "Explore projects" [ref=f5e24] [cursor=pointer]:
+          - /url: "#projects"
+          - text: Explore projects
+          - generic [aria-hidden] [ref=f5e25]: →
+      - generic [ref=f5e26]:
+        - heading "webserv" [level=2] [ref=f5e27]
+        - paragraph [ref=f5e28]: An implementation of an HTTP/1.0 server.
+        - generic [ref=f5e29]:
+          - paragraph [ref=f5e30]: Featured project
+          - link "View project overview" [ref=f5e31] [cursor=pointer]:
+            - /url: "#project-webserv"
+            - text: View project overview
+            - generic [aria-hidden] [ref=f5e32]: →
+    - region [ref=f5e33]:
+      - generic [ref=f5e34]:
+        - heading "A little about me." [level=2] [ref=f5e35]
+        - generic [ref=f5e36]:
+          - paragraph [ref=f5e37]: I'm a fourth-year Computer Science student who has completed the Common Core at 42 Amman.
+          - paragraph [ref=f5e38]: I'm interested in backend engineering, operating systems, algorithms, and understanding how computers work internally. My projects are a way to explore these ideas through building.
+    - region [ref=f5e39]:
+      - generic [ref=f5e40]:
+        - heading "Selected projects." [level=2] [ref=f5e41]
+        - paragraph [ref=f5e42]: A closer look at work across backend and systems programming.
+      - generic [ref=f5e43]:
+        - article [ref=f5e44]:
+          - generic [ref=f5e45]:
+            - paragraph [ref=f5e46]: Backend
+            - heading "webserv" [level=3] [ref=f5e47]
+          - paragraph [ref=f5e48]: Implemented an HTTP/1.0 server.
+        - article [ref=f5e49]:
+          - generic [ref=f5e50]:
+            - paragraph [ref=f5e51]: Memory management
+            - heading "ft_malloc" [level=3] [ref=f5e52]
+          - paragraph [ref=f5e53]: Implemented custom memory allocation functions in C, including malloc, free, and realloc.
+        - article [ref=f5e54]:
+          - generic [ref=f5e55]:
+            - paragraph [ref=f5e56]: Systems programming
+            - heading "minishell" [level=3] [ref=f5e57]
+          - paragraph [ref=f5e58]: Built a Unix-like shell in C.
+        - article [ref=f5e59]:
+          - generic [ref=f5e60]:
+            - paragraph [ref=f5e61]: Processes
+            - heading "pipex" [level=3] [ref=f5e62]
+          - paragraph [ref=f5e63]: Worked with Unix pipes and process execution.
+        - article [ref=f5e64]:
+          - generic [ref=f5e65]:
+            - paragraph [ref=f5e66]: Containers
+            - heading "Inception" [level=3] [ref=f5e67]
+          - paragraph [ref=f5e68]: Worked with Docker containers.
+        - article [ref=f5e69]:
+          - generic [ref=f5e70]:
+            - paragraph [ref=f5e71]: Real-time application
+            - heading "ft_transcendence" [level=3] [ref=f5e72]
+          - paragraph [ref=f5e73]: Developed a real-time quiz platform.
+    - region [ref=f5e74]:
+      - generic [ref=f5e75]:
+        - generic [ref=f5e76]:
+          - heading "Areas of practice." [level=2] [ref=f5e77]
+          - paragraph [ref=f5e78]: Technologies and concepts reflected in my project work.
+        - generic [ref=f5e79]:
+          - generic [ref=f5e80]:
+            - heading "Programming" [level=3] [ref=f5e81]
+            - paragraph [ref=f5e82]: C
+          - generic [ref=f5e83]:
+            - heading "Systems" [level=3] [ref=f5e84]
+            - paragraph [ref=f5e85]: Unix pipes, process execution, memory allocation
+          - generic [ref=f5e86]:
+            - heading "Backend & infrastructure" [level=3] [ref=f5e87]
+            - paragraph [ref=f5e88]: HTTP/1.0, Docker containers
+    - region [ref=f5e89]:
+      - heading "Let's connect." [level=2] [ref=f5e90]
+      - paragraph [ref=f5e91]: Contact details will be added here when available.
+  - contentinfo [ref=f5e92]:
+    - generic [ref=f5e93]:
+      - paragraph [ref=f5e94]: Developer portfolio
+      - link "Back to top ↑" [ref=f5e95] [cursor=pointer]:
+        - /url: "#home"
