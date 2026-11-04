@@ -1,0 +1,270 @@
+- generic [active] [ref=f7e1]:
+  - link "Skip to content" [ref=f7e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f7e3]:
+    - link "THE CURIOSITY LAB." [ref=f7e4] [cursor=pointer]:
+      - /url: "#top"
+    - navigation "Exhibit navigation" [ref=f7e5]:
+      - link "Solar System" [ref=f7e6] [cursor=pointer]:
+        - /url: "#solar-system"
+      - link "Stars" [ref=f7e7] [cursor=pointer]:
+        - /url: "#stars"
+      - link "Deep Space" [ref=f7e8] [cursor=pointer]:
+        - /url: "#deep-space"
+      - link "Cosmic Distances" [ref=f7e9] [cursor=pointer]:
+        - /url: "#universe"
+    - link "Behind the Lab ↗" [ref=f7e10] [cursor=pointer]:
+      - /url: "#about"
+  - main [ref=f7e11]:
+    - region [ref=f7e12]:
+      - generic [ref=f7e13]:
+        - paragraph [ref=f7e14]: AN ATLAS FOR THE CURIOUS / EARTH, 2026
+        - heading [level=1] [ref=f7e15]:
+          - text: THE CURIOSITY
+          - emphasis [ref=f7e16]: LAB
+          - text: .
+        - paragraph [ref=f7e17]: Explore the Universe.
+        - paragraph [ref=f7e18]: Look up. Look closer. There’s a whole universe waiting to be discovered.
+        - link "Begin Exploring ↗" [ref=f7e19] [cursor=pointer]:
+          - /url: "#collections"
+          - text: Begin Exploring
+          - generic [ref=f7e20]: ↗
+      - generic [ref=f7e21]: YOUR JOURNEY STARTS HERE ↓
+    - generic [ref=f7e23]:
+      - generic [ref=f7e24]:
+        - paragraph [ref=f7e25]: A FIELD GUIDE TO THE COSMOS
+        - heading [level=2] [ref=f7e26]:
+          - text: There is moreout
+          - emphasis [ref=f7e27]: there.
+      - generic [ref=f7e28]:
+        - paragraph [ref=f7e29]: From our own celestial neighborhood to the edge of what we can see, every point of light has a story.
+        - paragraph [ref=f7e30]: Choose a direction and follow your curiosity.
+      - generic [ref=f7e31]:
+        - link "01 / OUR NEIGHBORHOOD Solar System ↗" [ref=f7e32] [cursor=pointer]:
+          - /url: "#solar-system"
+          - generic [ref=f7e33]: 01 / OUR NEIGHBORHOOD
+          - strong [ref=f7e34]: Solar System
+          - generic [ref=f7e35]: ↗
+        - link "02 / POINTS OF LIGHT Stars ↗" [ref=f7e36] [cursor=pointer]:
+          - /url: "#stars"
+          - generic [ref=f7e37]: 02 / POINTS OF LIGHT
+          - strong [ref=f7e38]: Stars
+          - generic [ref=f7e39]: ↗
+        - link "03 / BEYOND THE FAMILIAR Deep Space ↗" [ref=f7e40] [cursor=pointer]:
+          - /url: "#deep-space"
+          - generic [ref=f7e41]: 03 / BEYOND THE FAMILIAR
+          - strong [ref=f7e42]: Deep Space
+          - generic [ref=f7e43]: ↗
+    - generic [ref=f7e44]:
+      - generic [ref=f7e45]:
+        - generic [ref=f7e46]:
+          - paragraph [ref=f7e47]: OUR COSMIC NEIGHBORHOOD
+          - heading [level=2] [ref=f7e48]:
+            - text: The Solar
+            - emphasis [ref=f7e49]: System.
+        - paragraph [ref=f7e50]: A journey through our celestial neighborhood. Select a world to discover its story.
+      - paragraph [ref=f7e51]:
+        - text: SELECT A WORLD TO EXPLORE
+        - generic [aria-hidden] [ref=f7e52]: ↓
+        - generic [ref=f7e53]: NOT TO SCALE
+      - generic [ref=f7e54]:
+        - button "Explore The Sun" [ref=f7e55] [cursor=pointer]:
+          - generic [ref=f7e57]:
+            - generic [ref=f7e58]: The Sun
+            - generic [ref=f7e59]: Star
+        - button "Explore Mercury" [ref=f7e60] [cursor=pointer]:
+          - generic [ref=f7e62]:
+            - generic [ref=f7e63]: Mercury
+            - generic [ref=f7e64]: Terrestrial planet
+        - button "Explore Venus" [ref=f7e65] [cursor=pointer]:
+          - generic [ref=f7e67]:
+            - generic [ref=f7e68]: Venus
+            - generic [ref=f7e69]: Terrestrial planet
+        - button "Explore Earth" [ref=f7e70] [cursor=pointer]:
+          - generic [ref=f7e72]:
+            - generic [ref=f7e73]: Earth
+            - generic [ref=f7e74]: Terrestrial planet
+        - button "Explore The Moon" [ref=f7e75] [cursor=pointer]:
+          - generic [ref=f7e77]:
+            - generic [ref=f7e78]: The Moon
+            - generic [ref=f7e79]: Natural satellite
+        - button "Explore Mars" [ref=f7e80] [cursor=pointer]:
+          - generic [ref=f7e82]:
+            - generic [ref=f7e83]: Mars
+            - generic [ref=f7e84]: Terrestrial planet
+        - button "Explore Jupiter" [ref=f7e85] [cursor=pointer]:
+          - generic [ref=f7e87]:
+            - generic [ref=f7e88]: Jupiter
+            - generic [ref=f7e89]: Gas giant
+        - button "Explore Saturn" [ref=f7e90] [cursor=pointer]:
+          - generic [ref=f7e92]:
+            - generic [ref=f7e93]: Saturn
+            - generic [ref=f7e94]: Gas giant
+        - button "Explore Uranus" [ref=f7e95] [cursor=pointer]:
+          - generic [ref=f7e97]:
+            - generic [ref=f7e98]: Uranus
+            - generic [ref=f7e99]: Ice giant
+        - button "Explore Neptune" [ref=f7e100] [cursor=pointer]:
+          - generic [ref=f7e102]:
+            - generic [ref=f7e103]: Neptune
+            - generic [ref=f7e104]: Ice giant
+      - generic [ref=f7e105]:
+        - generic [ref=f7e106]:
+          - paragraph [ref=f7e107]: A WORLD OF ITS OWN
+          - heading "Beyond the eight" [level=3] [ref=f7e108]
+        - paragraph [ref=f7e109]: Meet Pluto, a small world with a big story.
+      - button "Explore Pluto" [ref=f7e111] [cursor=pointer]:
+        - generic [ref=f7e113]:
+          - generic [ref=f7e114]: Pluto
+          - generic [ref=f7e115]: Dwarf planet
+    - generic [ref=f7e117]:
+      - generic [ref=f7e118]:
+        - generic [ref=f7e119]:
+          - paragraph [ref=f7e120]: DISTANT SUNS
+          - heading [level=2] [ref=f7e121]:
+            - text: Written in the
+            - emphasis [ref=f7e122]: stars.
+        - paragraph [ref=f7e123]: Some guide us, some are nearing their final act, and one makes life on Earth possible.
+      - generic [ref=f7e124]:
+        - button "Star 01 The Sun Explore exhibit" [ref=f7e125] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e127]: ↗
+          - generic [ref=f7e128]:
+            - text: Star
+            - generic [ref=f7e129]: "01"
+          - generic [ref=f7e130]: The Sun
+          - text: Explore exhibit
+        - button "Binary star 02 Sirius Explore exhibit" [ref=f7e131] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e133]: ↗
+          - generic [ref=f7e134]:
+            - text: Binary star
+            - generic [ref=f7e135]: "02"
+          - generic [ref=f7e136]: Sirius
+          - text: Explore exhibit
+        - button "Red supergiant 03 Betelgeuse Explore exhibit" [ref=f7e137] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e139]: ↗
+          - generic [ref=f7e140]:
+            - text: Red supergiant
+            - generic [ref=f7e141]: "03"
+          - generic [ref=f7e142]: Betelgeuse
+          - text: Explore exhibit
+        - button "Multiple star system 04 Polaris Explore exhibit" [ref=f7e143] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e145]: ↗
+          - generic [ref=f7e146]:
+            - text: Multiple star system
+            - generic [ref=f7e147]: "04"
+          - generic [ref=f7e148]: Polaris
+          - text: Explore exhibit
+        - button "Main-sequence star 05 Vega Explore exhibit" [ref=f7e149] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e151]: ↗
+          - generic [ref=f7e152]:
+            - text: Main-sequence star
+            - generic [ref=f7e153]: "05"
+          - generic [ref=f7e154]: Vega
+          - text: Explore exhibit
+        - button "Red dwarf 06 Proxima Centauri Explore exhibit" [ref=f7e155] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e157]: ↗
+          - generic [ref=f7e158]:
+            - text: Red dwarf
+            - generic [ref=f7e159]: "06"
+          - generic [ref=f7e160]: Proxima Centauri
+          - text: Explore exhibit
+    - generic [ref=f7e161]:
+      - generic [ref=f7e162]:
+        - generic [ref=f7e163]:
+          - paragraph [ref=f7e164]: BEYOND OUR SOLAR SYSTEM
+          - heading [level=2] [ref=f7e165]:
+            - text: Into the
+            - emphasis [ref=f7e166]: deep.
+        - paragraph [ref=f7e167]: Stellar nurseries, island universes, and the extraordinary objects at their hearts.
+      - generic [ref=f7e168]:
+        - button "Galaxy 01 The Milky Way Explore exhibit" [ref=f7e169] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e171]: ↗
+          - generic [ref=f7e172]:
+            - text: Galaxy
+            - generic [ref=f7e173]: "01"
+          - generic [ref=f7e174]: The Milky Way
+          - text: Explore exhibit
+        - button "Spiral galaxy 02 Andromeda Galaxy Explore exhibit" [ref=f7e175] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e177]: ↗
+          - generic [ref=f7e178]:
+            - text: Spiral galaxy
+            - generic [ref=f7e179]: "02"
+          - generic [ref=f7e180]: Andromeda Galaxy
+          - text: Explore exhibit
+        - button "Stellar nursery 03 Orion Nebula Explore exhibit" [ref=f7e181] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e183]: ↗
+          - generic [ref=f7e184]:
+            - text: Stellar nursery
+            - generic [ref=f7e185]: "03"
+          - generic [ref=f7e186]: Orion Nebula
+          - text: Explore exhibit
+        - button "Stellar nursery 04 Carina Nebula Explore exhibit" [ref=f7e187] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e189]: ↗
+          - generic [ref=f7e190]:
+            - text: Stellar nursery
+            - generic [ref=f7e191]: "04"
+          - generic [ref=f7e192]: Carina Nebula
+          - text: Explore exhibit
+        - button "Supermassive black hole 05 Sagittarius A* Explore exhibit" [ref=f7e193] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e195]: ↗
+          - generic [ref=f7e196]:
+            - text: Supermassive black hole
+            - generic [ref=f7e197]: "05"
+          - generic [ref=f7e198]: Sagittarius A*
+          - text: Explore exhibit
+        - button "Supermassive black hole 06 M87* Explore exhibit" [ref=f7e199] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f7e201]: ↗
+          - generic [ref=f7e202]:
+            - text: Supermassive black hole
+            - generic [ref=f7e203]: "06"
+          - generic [ref=f7e204]: M87*
+          - text: Explore exhibit
+    - generic [ref=f7e206]:
+      - generic [ref=f7e207]:
+        - paragraph [ref=f7e208]: THE UNIVERSE / AN INTERACTIVE EXPERIMENT
+        - heading [level=2] [ref=f7e209]:
+          - text: Space is vast.
+          - emphasis [ref=f7e210]: Light takes time.
+        - paragraph [ref=f7e211]: Light travels at 299,792 kilometres per second. Even at that speed, the journey across space takes a little while.
+        - paragraph [ref=f7e212]: ONE WAY FROM EARTH · NOT TO SCALE
+      - generic [ref=f7e213]:
+        - paragraph [ref=f7e214]: THE DISTANCE EXPERIMENT
+        - heading "How long does light take?" [level=3] [ref=f7e215]
+        - generic [ref=f7e216]: Choose a destination
+        - combobox "Choose a destination" [ref=f7e217]:
+          - option "The Moon" [selected]
+          - option "The Sun"
+          - option "Mercury"
+          - option "Venus"
+          - option "Earth"
+          - option "Mars"
+          - option "Jupiter"
+          - option "Saturn"
+          - option "Uranus"
+          - option "Neptune"
+          - option "Proxima Centauri"
+          - option "Sirius"
+          - option "Vega"
+          - option "Polaris"
+          - option "Betelgeuse"
+          - option "Andromeda Galaxy"
+        - generic [ref=f7e218]:
+          - text: LIGHT TRAVEL TIME FROM EARTH
+          - strong [ref=f7e219]: 1.3 seconds
+          - paragraph [ref=f7e220]: About 384,400 km away.
+        - paragraph [ref=f7e221]: Approximate one-way light travel times. Planetary distances vary with orbital positions; these are illustrative typical distances, not live measurements. Earth is measured from Earth’s surface to itself.
+    - generic [ref=f7e222]:
+      - generic [ref=f7e223]:
+        - paragraph [ref=f7e224]: BEHIND THE LAB
+        - heading [level=2] [ref=f7e225]:
+          - text: Made for
+          - emphasis [ref=f7e226]: looking up.
+      - generic [ref=f7e227]:
+        - paragraph [ref=f7e228]: The Curiosity Lab is a small corner of the internet for the infinitely curious. Built as a place to pause, explore, and appreciate the universe we call home.
+        - link "Meet the creator on GitHub ↗" [ref=f7e229] [cursor=pointer]:
+          - /url: https://github.com/ramasham
+  - contentinfo [ref=f7e230]:
+    - generic [ref=f7e231]: THE CURIOSITY LAB.
+    - generic [ref=f7e232]: STAY CURIOUS. KEEP LOOKING UP.
+    - link "Back to the beginning ↑" [ref=f7e233] [cursor=pointer]:
+      - /url: "#top"

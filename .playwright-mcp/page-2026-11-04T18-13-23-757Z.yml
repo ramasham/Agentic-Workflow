@@ -1,0 +1,366 @@
+- generic:
+  - link:
+    - /url: "#main"
+    - text: Skip to content
+  - banner:
+    - link:
+      - /url: "#top"
+      - text: THE CURIOSITY LAB.
+    - navigation:
+      - link:
+        - /url: "#solar-system"
+        - text: Solar System
+      - link:
+        - /url: "#stars"
+        - text: Stars
+      - link:
+        - /url: "#deep-space"
+        - text: Deep Space
+      - link:
+        - /url: "#universe"
+        - text: Cosmic Distances
+    - link:
+      - /url: "#about"
+      - text: Behind the Lab ↗
+  - main:
+    - region:
+      - generic:
+        - paragraph: AN ATLAS FOR THE CURIOUS / EARTH, 2026
+        - heading [level=1]:
+          - text: THE CURIOSITY
+          - emphasis: LAB
+          - text: .
+        - paragraph: Explore the Universe.
+        - paragraph: Look up. Look closer. There’s a whole universe waiting to be discovered.
+        - link:
+          - /url: "#collections"
+          - text: Begin Exploring
+          - generic: ↗
+      - generic: YOUR JOURNEY STARTS HERE ↓
+    - generic:
+      - generic:
+        - paragraph: A FIELD GUIDE TO THE COSMOS
+        - heading [level=2]:
+          - text: There is more out
+          - emphasis: there.
+      - generic:
+        - paragraph: From our own celestial neighborhood to the edge of what we can see, every point of light has a story.
+        - paragraph: Choose a direction and follow your curiosity.
+      - generic:
+        - link:
+          - /url: "#solar-system"
+          - generic: 01 / OUR NEIGHBORHOOD
+          - strong: Solar System
+          - generic: ↗
+        - link:
+          - /url: "#stars"
+          - generic: 02 / POINTS OF LIGHT
+          - strong: Stars
+          - generic: ↗
+        - link:
+          - /url: "#deep-space"
+          - generic: 03 / BEYOND THE FAMILIAR
+          - strong: Deep Space
+          - generic: ↗
+    - generic:
+      - generic:
+        - generic:
+          - paragraph: OUR COSMIC NEIGHBORHOOD
+          - heading [level=2]:
+            - text: The Solar
+            - emphasis: System.
+        - paragraph: One star, eight planets, and countless worlds. Start close to home, then venture outward.
+      - generic:
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Star
+            - generic: "01"
+          - generic: The Sun
+          - text: Explore exhibit
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Terrestrial planet
+            - generic: "02"
+          - generic: Mercury
+          - text: Explore exhibit
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Terrestrial planet
+            - generic: "03"
+          - generic: Venus
+          - text: Explore exhibit
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Terrestrial planet
+            - generic: "04"
+          - generic: Earth
+          - text: Explore exhibit
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Natural satellite
+            - generic: "05"
+          - generic: The Moon
+          - text: Explore exhibit
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Terrestrial planet
+            - generic: "06"
+          - generic: Mars
+          - text: Explore exhibit
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Gas giant
+            - generic: "07"
+          - generic: Jupiter
+          - text: Explore exhibit
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Gas giant
+            - generic: "08"
+          - generic: Saturn
+          - text: Explore exhibit
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Ice giant
+            - generic: "09"
+          - generic: Uranus
+          - text: Explore exhibit
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Ice giant
+            - generic: "10"
+          - generic: Neptune
+          - text: Explore exhibit
+      - generic:
+        - generic:
+          - paragraph: A WORLD OF ITS OWN
+          - heading [level=3]: Beyond the eight
+        - paragraph: Meet Pluto, a small world with a big story.
+      - generic:
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Dwarf planet
+            - generic: "01"
+          - generic: Pluto
+          - text: Explore exhibit
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - paragraph: DISTANT SUNS
+            - heading [level=2]:
+              - text: Written in the
+              - emphasis: stars.
+          - paragraph: Some guide us, some are nearing their final act, and one makes life on Earth possible.
+        - generic:
+          - button:
+            - generic:
+              - generic [aria-hidden]: ↗
+            - generic:
+              - text: Star
+              - generic: "01"
+            - generic: The Sun
+            - text: Explore exhibit
+          - button:
+            - generic:
+              - generic [aria-hidden]: ↗
+            - generic:
+              - text: Binary star
+              - generic: "02"
+            - generic: Sirius
+            - text: Explore exhibit
+          - button:
+            - generic:
+              - generic [aria-hidden]: ↗
+            - generic:
+              - text: Red supergiant
+              - generic: "03"
+            - generic: Betelgeuse
+            - text: Explore exhibit
+          - button:
+            - generic:
+              - generic [aria-hidden]: ↗
+            - generic:
+              - text: Multiple star system
+              - generic: "04"
+            - generic: Polaris
+            - text: Explore exhibit
+          - button:
+            - generic:
+              - generic [aria-hidden]: ↗
+            - generic:
+              - text: Main-sequence star
+              - generic: "05"
+            - generic: Vega
+            - text: Explore exhibit
+          - button:
+            - generic:
+              - generic [aria-hidden]: ↗
+            - generic:
+              - text: Red dwarf
+              - generic: "06"
+            - generic: Proxima Centauri
+            - text: Explore exhibit
+    - generic:
+      - generic:
+        - generic:
+          - paragraph: BEYOND OUR SOLAR SYSTEM
+          - heading [level=2]:
+            - text: Into the
+            - emphasis: deep.
+        - paragraph: Stellar nurseries, island universes, and the extraordinary objects at their hearts.
+      - generic:
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Galaxy
+            - generic: "01"
+          - generic: The Milky Way
+          - text: Explore exhibit
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Spiral galaxy
+            - generic: "02"
+          - generic: Andromeda Galaxy
+          - text: Explore exhibit
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Stellar nursery
+            - generic: "03"
+          - generic: Orion Nebula
+          - text: Explore exhibit
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Stellar nursery
+            - generic: "04"
+          - generic: Carina Nebula
+          - text: Explore exhibit
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Supermassive black hole
+            - generic: "05"
+          - generic: Sagittarius A*
+          - text: Explore exhibit
+        - button:
+          - generic:
+            - generic [aria-hidden]: ↗
+          - generic:
+            - text: Supermassive black hole
+            - generic: "06"
+          - generic: M87*
+          - text: Explore exhibit
+    - generic:
+      - generic:
+        - generic:
+          - paragraph: THE UNIVERSE / AN INTERACTIVE EXPERIMENT
+          - heading [level=2]:
+            - text: Space is vast.
+            - emphasis: Light takes time.
+          - paragraph: Light travels at 299,792 kilometres per second. Even at that speed, the journey across space takes a little while.
+          - paragraph: ONE WAY FROM EARTH · NOT TO SCALE
+        - generic:
+          - paragraph: THE DISTANCE EXPERIMENT
+          - heading [level=3]: How long does light take?
+          - generic: Choose a destination
+          - combobox
+          - generic:
+            - text: LIGHT TRAVEL TIME FROM EARTH
+            - strong: 1.3 seconds
+            - paragraph: About 384,400 km away.
+          - paragraph: Approximate one-way light travel times. Planetary distances vary with orbital positions; these are illustrative typical distances, not live measurements. Earth is measured from Earth’s surface to itself.
+    - generic:
+      - generic:
+        - paragraph: BEHIND THE LAB
+        - heading [level=2]:
+          - text: Made for
+          - emphasis: looking up.
+      - generic:
+        - paragraph: The Curiosity Lab is a small corner of the internet for the infinitely curious. Built as a place to pause, explore, and appreciate the universe we call home.
+        - link:
+          - /url: https://github.com/ramasham
+          - text: Meet the creator on GitHub ↗
+  - contentinfo:
+    - generic: THE CURIOSITY LAB.
+    - generic: STAY CURIOUS. KEEP LOOKING UP.
+    - link:
+      - /url: "#top"
+      - text: Back to the beginning ↑
+  - dialog [ref=f2e242]:
+    - generic [ref=f2e243]:
+      - button "Close exhibit" [active] [ref=f2e244] [cursor=pointer]: ×
+      - generic [ref=f2e245]:
+        - 'img "Mercury: MESSENGER spacecraft mosaic of Mercury’s surface" [ref=f2e246]'
+        - paragraph [ref=f2e247]: MESSENGER spacecraft mosaic of Mercury’s surface
+      - generic [ref=f2e248]:
+        - paragraph [ref=f2e249]: Terrestrial planet
+        - heading "Mercury" [level=2] [ref=f2e250]
+        - paragraph [ref=f2e251]: The smallest planet is a heavily cratered world that races around the Sun in just 88 Earth days.
+        - generic [ref=f2e252]:
+          - generic [ref=f2e253]:
+            - term [ref=f2e254]: Diameter
+            - definition [ref=f2e255]: 4,879 km
+          - generic [ref=f2e256]:
+            - term [ref=f2e257]: Distance from Sun
+            - definition [ref=f2e258]: 0.39 AU
+          - generic [ref=f2e259]:
+            - term [ref=f2e260]: Rotation
+            - definition [ref=f2e261]: 58.6 Earth days
+          - generic [ref=f2e262]:
+            - term [ref=f2e263]: Orbit
+            - definition [ref=f2e264]: 88 Earth days
+          - generic [ref=f2e265]:
+            - term [ref=f2e266]: Temperature
+            - definition [ref=f2e267]: Approximately −180°C to 430°C
+        - heading "Look closer" [level=3] [ref=f2e268]
+        - paragraph [ref=f2e269]: Mercury has water ice in permanently shadowed craters near its poles.
+        - generic [ref=f2e270]:
+          - generic [ref=f2e272]:
+            - heading "Explore with NASA" [level=3] [ref=f2e273]
+            - paragraph [ref=f2e274]: Take a closer look with NASA’s interactive 3D visualization.
+          - generic [ref=f2e275]:
+            - button "Load 3D view here" [ref=f2e276] [cursor=pointer]
+            - link "View in NASA 3D ↗" [ref=f2e277] [cursor=pointer]:
+              - /url: https://eyes.nasa.gov/apps/solar-system/#/mercury?embed=true
+          - paragraph [ref=f2e278]: NASA’s interactive requires an internet connection and compatible graphics. If it doesn’t load, open it in a new tab.
+        - figure [ref=f2e279]:
+          - img "MESSENGER spacecraft close-up of a crater on Mercury" [ref=f2e280]
+          - generic [ref=f2e281]:
+            - text: "A close view of a crater on Mercury, captured by MESSENGER. Image: NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington."
+            - link "Image source & credits ↗" [ref=f2e282] [cursor=pointer]:
+              - /url: https://images.nasa.gov/details/PIA18372
+        - paragraph [ref=f2e283]: "Image: Mercury Globe: 0°N, 180°E — NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington · NASA image use guidelines apply"
+        - link "Image source & credits ↗" [ref=f2e284] [cursor=pointer]:
+          - /url: https://images.nasa.gov/details/PIA15162
+        - link "Explore NASA Science ↗" [ref=f2e285] [cursor=pointer]:
+          - /url: https://science.nasa.gov/mercury/

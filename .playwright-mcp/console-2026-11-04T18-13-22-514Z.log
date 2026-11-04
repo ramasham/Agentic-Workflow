@@ -1,0 +1,18 @@
+[    2908ms] [WARNING] [.WebGL-0x2694000fbc00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://eyes.nasa.gov/apps/solar-system/#/mercury?embed=true:0
+[    2917ms] [WARNING] [.WebGL-0x2694000fbc00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://eyes.nasa.gov/apps/solar-system/#/mercury?embed=true:0
+[    2922ms] [WARNING] [.WebGL-0x2694000fbc00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://eyes.nasa.gov/apps/solar-system/#/mercury?embed=true:0
+[    2926ms] [WARNING] [.WebGL-0x2694000fbc00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat) @ https://eyes.nasa.gov/apps/solar-system/#/mercury?embed=true:0
+[   43029ms] [WARNING] WebGL: CONTEXT_LOST_WEBGL: loseContext: context lost @ https://eyes.nasa.gov/apps/solar-system/#/mercury?embed=true:0
+[   43032ms] [LOG] THREE.WebGLRenderer: Context Lost. @ https://eyes.nasa.gov/apps/solar-system/vendors.js:1
+[   44040ms] [LOG] THREE.WebGLRenderer: Context Restored. @ https://eyes.nasa.gov/apps/solar-system/vendors.js:1
+[   49861ms] [WARNING] [.WebGL-0x269403947000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://eyes.nasa.gov/apps/solar-system/#/mercury?embed=true:0
+[   55114ms] [WARNING] [.WebGL-0x269403947000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://eyes.nasa.gov/apps/solar-system/#/mercury?embed=true:0
+[   58739ms] [WARNING] [.WebGL-0x269403947000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://eyes.nasa.gov/apps/solar-system/#/mercury?embed=true:0
+[   62297ms] [WARNING] [.WebGL-0x269403947000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat) @ https://eyes.nasa.gov/apps/solar-system/#/mercury?embed=true:0
+[  267209ms] [WARNING] WebGL: CONTEXT_LOST_WEBGL: loseContext: context lost @ https://eyes.nasa.gov/apps/solar-system/#/mercury?embed=true:0
+[  267212ms] [LOG] THREE.WebGLRenderer: Context Lost. @ https://eyes.nasa.gov/apps/solar-system/vendors.js:1
+[  268235ms] [LOG] THREE.WebGLRenderer: Context Restored. @ https://eyes.nasa.gov/apps/solar-system/vendors.js:1
+[  272366ms] [WARNING] [.WebGL-0x269403947600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://eyes.nasa.gov/apps/solar-system/#/mercury?embed=true:0
+[  278435ms] [WARNING] [.WebGL-0x269403947600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://eyes.nasa.gov/apps/solar-system/#/mercury?embed=true:0
+[  283318ms] [WARNING] [.WebGL-0x269403947600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://eyes.nasa.gov/apps/solar-system/#/mercury?embed=true:0
+[  287159ms] [WARNING] [.WebGL-0x269403947600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat) @ https://eyes.nasa.gov/apps/solar-system/#/mercury?embed=true:0
