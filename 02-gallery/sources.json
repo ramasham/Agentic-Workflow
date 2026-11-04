@@ -1,0 +1,122 @@
+[
+  {
+    "title": "The Bear and the Piano",
+    "source_page_url": "https://books.toscrape.com/catalogue/page-2.html",
+    "original_image_url": "https://books.toscrape.com/media/cache/cf/bb/cfbb5e62715c6d888fd07794c9bab5d6.jpg",
+    "alt_text": "The Bear and the Piano",
+    "retrieval_date": "2026-11-04",
+    "local_image_path": "assets/selected-01-the-bear-and-the-piano.jpg"
+  },
+  {
+    "title": "The Elephant Tree",
+    "source_page_url": "https://books.toscrape.com/catalogue/page-2.html",
+    "original_image_url": "https://books.toscrape.com/media/cache/5d/7e/5d7ecde8e81513eba8a64c9fe000744b.jpg",
+    "alt_text": "The Elephant Tree",
+    "retrieval_date": "2026-11-04",
+    "local_image_path": "assets/selected-02-the-elephant-tree.jpg"
+  },
+  {
+    "title": "Reasons to Stay Alive",
+    "source_page_url": "https://books.toscrape.com/catalogue/page-3.html",
+    "original_image_url": "https://books.toscrape.com/media/cache/cb/bd/cbbdb0222ee8a0f6ab61657412a15794.jpg",
+    "alt_text": "Reasons to Stay Alive",
+    "retrieval_date": "2026-11-04",
+    "local_image_path": "assets/selected-03-reasons-to-stay-alive.jpg"
+  },
+  {
+    "title": "We Love You, Charlie Freeman",
+    "source_page_url": "https://books.toscrape.com/catalogue/page-3.html",
+    "original_image_url": "https://books.toscrape.com/media/cache/5f/15/5f152afdbc42356ecba02f61058a7e5b.jpg",
+    "alt_text": "We Love You, Charlie Freeman",
+    "retrieval_date": "2026-11-04",
+    "local_image_path": "assets/selected-04-we-love-you-charlie-freeman.jpg"
+  },
+  {
+    "title": "When We Collided",
+    "source_page_url": "https://books.toscrape.com/catalogue/page-3.html",
+    "original_image_url": "https://books.toscrape.com/media/cache/08/04/08044269fc197645268a6197c57e6173.jpg",
+    "alt_text": "When We Collided",
+    "retrieval_date": "2026-11-04",
+    "local_image_path": "assets/selected-05-when-we-collided.jpg"
+  },
+  {
+    "title": "This One Summer",
+    "source_page_url": "https://books.toscrape.com/catalogue/page-3.html",
+    "original_image_url": "https://books.toscrape.com/media/cache/c4/dd/c4ddd9ced89966b0602ec85e00cd5b61.jpg",
+    "alt_text": "This One Summer",
+    "retrieval_date": "2026-11-04",
+    "local_image_path": "assets/selected-06-this-one-summer.jpg"
+  },
+  {
+    "title": "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
+    "source_page_url": "https://books.toscrape.com/catalogue/page-3.html",
+    "original_image_url": "https://books.toscrape.com/media/cache/03/86/038650c9e7517b4baf2a423cd8eed38f.jpg",
+    "alt_text": "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
+    "retrieval_date": "2026-11-04",
+    "local_image_path": "assets/selected-07-throwing-rocks-at-the-google-bus-how-growth-became-the.jpg"
+  },
+  {
+    "title": "The Secret of Dreadwillow Carse",
+    "source_page_url": "https://books.toscrape.com/catalogue/page-3.html",
+    "original_image_url": "https://books.toscrape.com/media/cache/c4/a2/c4a2a1a026c67bcceb5a411c724d7d0c.jpg",
+    "alt_text": "The Secret of Dreadwillow Carse",
+    "retrieval_date": "2026-11-04",
+    "local_image_path": "assets/selected-08-the-secret-of-dreadwillow-carse.jpg"
+  },
+  {
+    "title": "The Art Forger",
+    "source_page_url": "https://books.toscrape.com/catalogue/page-4.html",
+    "original_image_url": "https://books.toscrape.com/media/cache/70/fa/70fa6c0437d9c97dbeada6bd32bf9d2c.jpg",
+    "alt_text": "The Art Forger",
+    "retrieval_date": "2026-11-04",
+    "local_image_path": "assets/selected-09-the-art-forger.jpg"
+  },
+  {
+    "title": "Princess Between Worlds (Wide-Awake Princess #5)",
+    "source_page_url": "https://books.toscrape.com/catalogue/page-5.html",
+    "original_image_url": "https://books.toscrape.com/media/cache/b7/e8/b7e84b78be3d9bb79b71156a5e5d4e42.jpg",
+    "alt_text": "Princess Between Worlds (Wide-Awake Princess #5)",
+    "retrieval_date": "2026-11-04",
+    "local_image_path": "assets/selected-10-princess-between-worlds-wide-awake-princess-5.jpg"
+  },
+  {
+    "title": "Algorithms to Live By: The Computer Science of Human Decisions",
+    "source_page_url": "https://books.toscrape.com/catalogue/page-7.html",
+    "original_image_url": "https://books.toscrape.com/media/cache/23/b4/23b42e094c02d52b14b11a960d49610e.jpg",
+    "alt_text": "Algorithms to Live By: The Computer Science of Human Decisions",
+    "retrieval_date": "2026-11-04",
+    "local_image_path": "assets/selected-11-algorithms-to-live-by-the-computer-science-of-human-dec.jpg"
+  },
+  {
+    "title": "The Third Wave: An Entrepreneur’s Vision of the Future",
+    "source_page_url": "https://books.toscrape.com/catalogue/page-7.html",
+    "original_image_url": "https://books.toscrape.com/media/cache/d0/77/d077a30042df6b916bfc8d257345c69e.jpg",
+    "alt_text": "The Third Wave: An Entrepreneur’s Vision of the Future",
+    "retrieval_date": "2026-11-04",
+    "local_image_path": "assets/selected-12-the-third-wave-an-entrepreneur-s-vision-of-the-future.jpg"
+  },
+  {
+    "title": "The Power of Habit: Why We Do What We Do in Life and Business",
+    "source_page_url": "https://books.toscrape.com/catalogue/page-13.html",
+    "original_image_url": "https://books.toscrape.com/media/cache/52/df/52dfc44f48cf29e7a9e305bcb63e1899.jpg",
+    "alt_text": "The Power of Habit: Why We Do What We Do in Life and Business",
+    "retrieval_date": "2026-11-04",
+    "local_image_path": "assets/selected-13-the-power-of-habit-why-we-do-what-we-do-in-life-and-bus.jpg"
+  },
+  {
+    "title": "Take Me with You",
+    "source_page_url": "https://books.toscrape.com/catalogue/page-13.html",
+    "original_image_url": "https://books.toscrape.com/media/cache/d8/a4/d8a44eda7cbe7bd1207f868e9adc06f3.jpg",
+    "alt_text": "Take Me with You",
+    "retrieval_date": "2026-11-04",
+    "local_image_path": "assets/selected-14-take-me-with-you.jpg"
+  },
+  {
+    "title": "Old School (Diary of a Wimpy Kid #10)",
+    "source_page_url": "https://books.toscrape.com/catalogue/page-14.html",
+    "original_image_url": "https://books.toscrape.com/media/cache/df/5d/df5d172abe87deda6d533e3e908d27d8.jpg",
+    "alt_text": "Old School (Diary of a Wimpy Kid #10)",
+    "retrieval_date": "2026-11-04",
+    "local_image_path": "assets/selected-15-old-school-diary-of-a-wimpy-kid-10.jpg"
+  }
+]

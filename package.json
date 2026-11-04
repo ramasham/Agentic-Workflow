@@ -1,0 +1,23 @@
+{
+  "name": "agentic-workflow",
+  "version": "1.0.0",
+  "description": "*This project has been created as part of the Agentic Workflows curriculum by YOUR_LOGIN.*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramasham/Agentic-Workflow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramasham/Agentic-Workflow/issues"
+  },
+  "homepage": "https://github.com/ramasham/Agentic-Workflow#readme",
+  "devDependencies": {
+    "@playwright/mcp": "0.0.84"
+  }
+}
