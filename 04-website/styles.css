@@ -1,82 +1,138 @@
-:root { color-scheme: light; --ink:#221b36; --muted:#554c64; --purple:#573a88; --deep:#211832; --lavender:#eae2f3; --paper:#f9f7fa; --line:#d9d1df; font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:var(--paper); }
-* { box-sizing:border-box; }
-html { scroll-padding-top:1.5rem; }
-body { margin:0; line-height:1.65; }
-::selection { background:#cdbbe5; color:var(--ink); }
-a { color:var(--purple); text-underline-offset:.2em; }
-a:focus-visible { outline:3px solid #815bbb; outline-offset:4px; }
-p,h1,h2,h3,h4 { margin-top:0; }
-h1,h2,h3,h4 { line-height:1.12; letter-spacing:-.035em; overflow-wrap:anywhere; }
-.container { width:min(100% - 3rem, 72rem); margin-inline:auto; }
-.skip-link { position:absolute; top:.5rem; left:.5rem; z-index:10; display:flex; align-items:center; min-height:44px; padding:.6rem 1rem; background:white; transform:translateY(-200%); }
-.skip-link:focus { transform:translateY(0); }
-.site-header { background:var(--paper); border-bottom:1px solid var(--line); }
-.header-inner { display:flex; justify-content:space-between; align-items:center; gap:1.5rem; min-height:5.5rem; }
-.brand { display:inline-flex; align-items:center; gap:.7rem; min-height:44px; color:var(--ink); font-size:.96rem; font-weight:750; text-decoration:none; white-space:nowrap; }
-.brand-mark { color:var(--purple); font-size:1.3rem; letter-spacing:-.12em; }
-.nav-list { display:flex; flex-wrap:wrap; gap:.25rem 1.5rem; list-style:none; padding:0; margin:0; }
-.nav-list a { display:inline-flex; align-items:center; justify-content:center; min-width:44px; min-height:44px; color:var(--muted); font-size:.9rem; font-weight:650; text-decoration:none; }
-.nav-list a:hover,.nav-list a[aria-current="location"] { color:var(--purple); text-decoration:underline; text-underline-offset:.45em; }
-.hero { position:relative; overflow:hidden; background:#e9e0f2; }
-.hero-inner { min-height:39rem; position:relative; display:grid; grid-template-columns:1fr 1fr; align-items:center; gap:3rem; padding-block:5rem 8rem; }
-.hero-copy { position:relative; z-index:2; max-width:37rem; }
-.hero-context { color:#593d80; font-size:.85rem; font-weight:750; letter-spacing:.06em; text-transform:uppercase; margin-bottom:1.6rem; }
-.hero-context span { padding-inline:.4rem; }
-.hero h1 { font-size:clamp(3rem,5vw,4.75rem); max-width:15ch; margin-bottom:1.5rem; text-wrap:balance; }
-.hero h1 em { color:var(--purple); font-family:Georgia,serif; font-style:normal; font-weight:400; }
-.hero-description { max-width:34rem; color:#4d4259; font-size:1.12rem; margin-bottom:2rem; }
-.button { display:inline-flex; align-items:center; gap:2.5rem; min-height:50px; padding:.7rem 1.15rem; background:var(--deep); color:white; font-weight:700; text-decoration:none; }
-.button:hover { background:var(--purple); }
-.system-art { position:relative; justify-self:center; width:min(100%,30rem); aspect-ratio:1; }
-.system-orbit { position:absolute; border:1px solid #ad99c4; inset:9%; transform:rotate(45deg); }
-.orbit-two { inset:20%; transform:rotate(20deg); border-color:#8c71ab; }
-.system-core { position:absolute; inset:27%; z-index:1; display:flex; flex-direction:column; justify-content:center; padding:10%; background:var(--deep); color:#f9f6fc; box-shadow:1rem 1rem 0 #c5b3d9; }
-.system-core > span { font-size:.7rem; letter-spacing:.12em; text-transform:uppercase; color:#d9cbe9; }
-.system-core strong { font-size:clamp(1.3rem,2.2vw,2.3rem); line-height:.95; letter-spacing:-.04em; }
-.system-core strong span { color:#c8adeb; }
-.system-node { position:absolute; z-index:2; background:#f9f7fa; border:1px solid #bba8cd; box-shadow:.5rem .5rem 0 #cdbbe0; }
-.node-memory { top:9%; right:4%; width:34%; padding:1rem; display:grid; grid-template-columns:repeat(4,1fr); gap:.25rem; }
-.node-memory span { aspect-ratio:1; background:#a68ac9; }
-.node-memory span:nth-child(2) { background:#e1d5ed; }
-.node-flow { bottom:10%; left:0; width:38%; display:flex; align-items:center; gap:.4rem; padding:1rem; }
-.node-flow i { height:.45rem; flex:1; background:#a68ac9; }
-.node-flow i:nth-child(2) { flex:2; background:#5c3e89; }
-.system-cross { position:absolute; color:#76569b; font-size:2rem; line-height:1; }
-.cross-one { top:9%; left:13%; } .cross-two { bottom:7%; right:12%; }
-.hero-project { position:absolute; z-index:3; bottom:0; right:0; display:flex; align-items:center; gap:1.5rem; padding:1rem 1.5rem; background:var(--deep); color:#fff; text-decoration:none; }
-.hero-project span { color:#e4d8ef; font-size:.83rem; }.hero-project strong { font-size:1.2rem; }.hero-project b { padding-left:1rem; }
-.hero-project:hover { background:#422d61; }
-.section { padding-block:clamp(4.5rem,8vw,7rem); }
-.section-grid { display:grid; grid-template-columns:1fr 1.1fr; gap:3rem 6rem; }
-.section h2 { font-size:clamp(2.4rem,4.5vw,4rem); max-width:14ch; margin-bottom:0; }
-.section-copy { max-width:38rem; color:var(--muted); }.section-copy p:last-child { margin-bottom:0; }
-.lead { color:var(--ink); font-size:clamp(1.2rem,2vw,1.5rem); line-height:1.5; }
-.projects-section { background:#f0ebf2; }
-.section-heading { display:flex; align-items:end; justify-content:space-between; gap:2rem; margin-bottom:3rem; }
-.section-heading p,.section-intro { max-width:20rem; color:var(--muted); margin-bottom:.25rem; }
-.featured-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
-.project-card { position:relative; overflow:hidden; min-height:24rem; padding:clamp(1.5rem,3vw,2.5rem); display:flex; flex-direction:column; justify-content:space-between; }
-.project-card h3 { font-size:clamp(2.3rem,4vw,3.6rem); margin-bottom:.8rem; }.project-content { position:relative; z-index:1; max-width:29rem; }.project-content > p:last-child { margin-bottom:0; }
-.project-category { font-size:.8rem; font-weight:750; text-transform:uppercase; letter-spacing:.08em; }
-.project-server { grid-column:1 / -1; min-height:22rem; flex-direction:row; align-items:center; gap:2rem; background:#2b203d; color:#fff; }
-.project-server .project-category { color:#d9c4f0; }.project-server .project-content > p:last-child { color:#eee5f6; }
-.project-memory { background:#dcd0eb; }.project-shell { background:#fcfafd; border:1px solid #dbd3e2; }
-.server-visual { width:min(48%,25rem); display:flex; align-items:center; justify-content:center; gap:.65rem; color:#eee5f6; font-size:.7rem; }
-.server-visual strong { display:grid; place-items:center; width:5rem; aspect-ratio:1; border:1px solid #baa1d3; color:white; font-size:1rem; }
-.server-path { display:flex; align-items:center; gap:.3rem; flex:1; }.server-path i { display:block; height:2px; flex:1; background:#a98acb; }.server-path i:nth-child(2) { height:6px; flex:0 0 6px; border-radius:50%; }
-.memory-visual { display:grid; grid-template-columns:repeat(6,1fr); gap:.4rem; max-width:23rem; margin-top:2.5rem; }.memory-visual span { height:2.4rem; background:#a888c5; }.memory-visual span:nth-child(3n) { background:#f6f0fa; }.memory-visual span:nth-child(4n) { background:#644389; }
-.shell-visual { display:flex; align-items:center; max-width:24rem; margin-top:3rem; color:#533777; font-size:.78rem; font-weight:700; }.shell-visual span { border:1px solid #ad99c4; padding:.6rem; }.shell-line { height:1px; background:#ad99c4; flex:1; }
-.more-heading { margin:3rem 0 1.2rem; font-size:1.2rem; }.more-projects { display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid #cfc5d5; }.more-projects article { padding:1.5rem 1.5rem 0 0; }.more-projects h4 { font-size:1.25rem; margin-bottom:.5rem; }.more-projects p { color:var(--muted); margin-bottom:0; }
-.skills-section { background:var(--deep); color:#f9f6fc; }.skills-section .section-intro { color:#ded3e8; margin-top:1.5rem; }.skill-groups { display:grid; grid-template-columns:1fr 1fr; gap:1px; background:#675775; border:1px solid #675775; }.skill-groups > div { background:var(--deep); padding:1.5rem; }.skill-groups h3 { font-size:.9rem; color:#d5c2e8; margin-bottom:1.2rem; letter-spacing:0; }.skill-groups p { min-height:3.3rem; margin-bottom:.5rem; }.skill-groups a { display:inline-flex; align-items:center; min-height:44px; color:#e7d7f8; font-size:.9rem; }
-.contact-section { display:flex; align-items:end; justify-content:space-between; gap:2rem; }.contact-section p { color:var(--muted); margin:0; }
-.site-footer { border-top:1px solid var(--line); }.footer-inner { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding-block:1rem; color:var(--muted); font-size:.9rem; }.footer-inner p { margin:0; }.footer-inner a { display:inline-flex; align-items:center; min-height:44px; }
-@media (hover:hover) { .project-card { transition:transform .25s ease,box-shadow .25s ease; }.project-card:hover { transform:translateY(-4px); box-shadow:0 12px 24px #221b3618; } }
-@media (max-width:700px) {
-  .container { width:min(100% - 2rem,72rem); }.header-inner { align-items:flex-start; flex-direction:column; gap:.25rem; padding-block:1rem; }.nav-list { gap:.25rem 1rem; }
-  .hero-inner { min-height:0; grid-template-columns:1fr; gap:1.5rem; padding-block:3.5rem 5rem; }.hero h1 { font-size:clamp(2.75rem,10vw,4rem); }.system-art { width:min(88%,22rem); }.hero-project { left:0; right:0; gap:1rem; justify-content:space-between; padding:.7rem 1rem; }.hero-project span:first-child { display:none; }
-  .section-grid,.featured-grid { grid-template-columns:1fr; gap:2rem; }.section-heading { display:block; }.section-heading h2 { margin-bottom:1rem; }.project-server { grid-column:auto; flex-direction:column; align-items:stretch; }.project-card { min-height:19rem; }.server-visual { width:100%; margin-top:2rem; }.featured-grid { gap:1rem; }
-  .more-projects { grid-template-columns:1fr; }.more-projects article { padding:1.25rem 0; border-bottom:1px solid #cfc5d5; }.skill-groups { grid-template-columns:1fr 1fr; }.contact-section { display:block; }.contact-section h2 { margin-bottom:1.5rem; }
-}
-@media (max-width:380px) { .skill-groups { grid-template-columns:1fr; }.shell-visual { font-size:.7rem; } }
-@media (prefers-reduced-motion:no-preference) { html { scroll-behavior:smooth; }.system-core { animation:core-arrive .7s cubic-bezier(.16,1,.3,1) both; } [data-reveal].is-visible { animation:arrive .55s cubic-bezier(.16,1,.3,1) both; } @keyframes core-arrive { from { transform:translate(-.5rem,-.5rem); } to { transform:translate(0,0); } } @keyframes arrive { from { filter:brightness(.92); } to { filter:brightness(1); } } }
-@media (prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior:auto !important; animation-duration:.01ms !important; transition-duration:.01ms !important; } }
+:root{color-scheme:dark;--ink:#050811;--paper:#eaf3ff;--muted:#b8c9db;--line:#29445e;--accent:#76bfff;--serif:Georgia,'Times New Roman',serif;--sans:Arial,Helvetica,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:5rem}body{margin:0;background:var(--ink);color:var(--paper);font-family:var(--sans);line-height:1.6}body.dialog-open{overflow:hidden}a{color:inherit;text-decoration:none}button,select{font:inherit}button{color:inherit}::selection{background:#76bfff;color:#050811}:focus-visible{outline:3px solid #9ad3ff;outline-offset:4px}.skip-link{position:fixed;top:0;left:0;z-index:99;background:#fff;color:#111;padding:1rem;transform:translateY(-110%)}.skip-link:focus{transform:none}.wrap{width:min(100% - 9vw,1440px);margin:auto}.site-header{position:absolute;z-index:3;top:0;left:0;width:100%;display:flex;align-items:center;justify-content:space-between;gap:2rem;padding:1.6rem 4.5%;font-size:.72rem;letter-spacing:.04em}.brand{font-weight:800;letter-spacing:.08em;white-space:nowrap}.brand span:not(.brand-dot){font-weight:400}.brand-dot{color:#f6ac66}.site-header nav{display:flex;gap:2rem}.site-header nav a,.header-about{color:#e1e2ea}.site-header a:hover{color:white}.hero{min-height: min(900px,100svh);height:100svh;min-height:670px;position:relative;display:flex;align-items:center;background:linear-gradient(90deg,rgba(4,7,16,.87) 0%,rgba(5,8,17,.48) 46%,rgba(5,8,17,.05) 100%),linear-gradient(0deg,#050811 0%,transparent 24%),url('assets/carina.jpg') center 47%/cover}.hero-content{width:min(100% - 9vw,1440px);margin:3rem auto 0}.hero-index,.section-note,.panel-label,.card-meta,.card-action,.hero-bottom,.distance-caption{font-size:.65rem;font-weight:700;letter-spacing:.17em;text-transform:uppercase}.hero-index,.section-note{color:#8ecaff}.hero h1{font-size:clamp(3.2rem,7vw,7rem);line-height:.91;letter-spacing:-.055em;margin:2rem 0 1.5rem;font-weight:700}.hero h1 em,h2 em{font-family:var(--serif);font-weight:400}.hero h1 span{color:#f6ac66}.hero-subtitle{font:italic clamp(1.55rem,2.4vw,2.4rem) var(--serif);margin:0 0 1.2rem}.hero-description{max-width:25rem;color:#d5d8e2;font-size:.96rem}.primary-link{display:inline-flex;align-items:center;justify-content:space-between;gap:3rem;background:#eaf3ff;color:#11101a;padding:1rem 1.2rem;margin-top:1.5rem;font-weight:700;font-size:.8rem;min-width:190px}.primary-link:hover{background:#b5dcff}.hero-bottom{position:absolute;bottom:2.2rem;left:4.5%;right:4.5%;display:flex;justify-content:space-between;color:#c8cbd5;font-size:.57rem}.introduction{padding:9rem 0 6rem;display:grid;grid-template-columns:1fr 1fr;gap:2rem}.section-note{margin:0 0 1.3rem}h2{font-size:clamp(2.8rem,5.5vw,5.7rem);line-height:1.02;letter-spacing:-.045em;margin:0;font-weight:500}h2 em{color:#b7dfff}.intro-copy{max-width:28rem;align-self:end;color:#c0c5d0;font-size:1.1rem}.collection-links{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);margin-top:3rem;border-top:1px solid var(--line)}.collection-links a{position:relative;display:grid;gap:1rem;padding:1.5rem 1rem 1.5rem 0;border-bottom:1px solid var(--line)}.collection-links a:not(:first-child){padding-left:1.5rem;border-left:1px solid var(--line)}.collection-links span{font-size:.6rem;letter-spacing:.12em;color:#aeb3c1}.collection-links strong{font:1.7rem var(--serif)}.collection-links b{position:absolute;right:1.5rem;bottom:1.5rem;font-weight:400}.exhibit-section{padding:7rem 0}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:3rem;margin-bottom:3.5rem}.section-heading>p{max-width:24rem;color:var(--muted);margin:0}.exhibit-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:3rem 1rem}.exhibit-card{background:none;border:0;padding:0;text-align:left;cursor:pointer;min-width:0}.card-image{position:relative;display:block;height:clamp(200px,23vw,340px);overflow:hidden;background:#111724}.card-image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.2,.7,.2,1),filter .7s}.exhibit-card:hover img{transform:scale(1.055);filter:brightness(1.12)}.card-arrow{position:absolute;right:1rem;top:1rem;width:2.2rem;height:2.2rem;display:grid;place-items:center;border:1px solid #ffffff9c;background:#05081180;border-radius:50%;font-size:1rem}.card-meta{display:flex;justify-content:space-between;color:#aeb3c1;margin-top:1.2rem;letter-spacing:.1em}.card-title{font:clamp(1.5rem,2.1vw,2.1rem) var(--serif);display:block;margin:.35rem 0}.card-action{color:#9ad2ff;letter-spacing:.09em;font-size:.57rem}.subheading{border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:end;margin:6rem 0 2rem;padding-top:2rem}.subheading h3{font:2.4rem var(--serif);margin:0}.subheading>p{color:var(--muted)}.dwarf-grid{grid-template-columns:repeat(4,1fr)}.stars-section{background:#0b1629}.deep-grid .exhibit-card:first-child,.deep-grid .exhibit-card:nth-child(2){grid-column:span 2}.deep-grid .exhibit-card:first-child .card-image,.deep-grid .exhibit-card:nth-child(2) .card-image{height:clamp(260px,30vw,440px)}.distance-section{padding:8rem 0;background:linear-gradient(90deg,rgba(7,10,19,.94),rgba(10,12,25,.75)),url('assets/milky-way.jpg') center/cover}.distance-layout{display:grid;grid-template-columns:1fr minmax(320px,520px);align-items:center;gap:8%}.distance-intro>p:not(.section-note):not(.distance-caption){max-width:30rem;color:#d0d2dc;font-size:1.1rem}.distance-caption{margin-top:4rem;color:#c2c5d2}.distance-panel{padding:clamp(1.5rem,4vw,3.5rem);background:#0b1629;border:1px solid #4a5063}.panel-label{color:#9bd2ff}.distance-panel h3{font:2.3rem var(--serif);line-height:1.05;margin:1.2rem 0 2rem}.distance-panel label{display:block;font-size:.8rem;margin-bottom:.6rem}.distance-panel select{background:#20283a;border:1px solid #70798c;color:white;width:100%;padding:.9rem;min-height:50px}.result{border-top:1px solid #485064;margin-top:2rem;padding-top:2rem}.result span{font-size:.62rem;letter-spacing:.1em;color:#b8c0d0}.result strong{display:block;font:clamp(2rem,3.5vw,3rem) var(--serif);margin:.5rem 0}.result p,.fine-print{color:#bdc3d0;font-size:.82rem}.fine-print{margin-top:2rem;line-height:1.6}.about{padding:9rem 0;display:grid;grid-template-columns:1fr 1fr;gap:4rem}.about>div:last-child{max-width:33rem;color:#c5cad4;font-size:1.1rem}.about a{display:inline-block;margin-top:1rem;color:white;border-bottom:1px solid #76bfff;padding-bottom:.4rem}footer{border-top:1px solid var(--line);padding:2rem 0 3rem;display:flex;justify-content:space-between;gap:1rem;font-size:.65rem;letter-spacing:.08em}dialog{width:min(1100px,calc(100% - 2rem));max-width:none;max-height:calc(100% - 2rem);padding:0;border:1px solid #555b6d;background:#0b1629;color:var(--paper);overflow:auto}dialog::backdrop{background:rgba(2,4,10,.88)}.dialog-inner{display:grid;grid-template-columns:1fr 1fr;position:relative}.dialog-image-wrap{position:sticky;top:0;align-self:start;background:#050811}.dialog-image-wrap img{width:100%;height:min(70vh,650px);object-fit:cover;display:block}.dialog-image-wrap p{font-size:.68rem;color:#c5c9d4;padding:0 1.5rem}.dialog-content{padding:clamp(2rem,4vw,4rem)}.dialog-content h2{font-size:clamp(2.8rem,4vw,4.5rem)}.dialog-intro{font:1.2rem/1.55 var(--serif);color:#eaf3ff}.dialog-content dl{margin:2rem 0}.dialog-content dl div{display:grid;grid-template-columns:1fr 1.3fr;gap:1rem;padding:.75rem 0;border-top:1px solid #394052;font-size:.82rem}.dialog-content dt{color:#aeb7c6}.dialog-content dd{margin:0}.dialog-content h3{font:1.6rem var(--serif)}.dialog-content>p:not(.section-note){color:#d0d3dc}.dialog-content .dialog-credit{font-size:.72rem;color:#aeb7c6!important;margin-top:2rem}.dialog-content>a{display:inline-block;font-size:.75rem;margin:0 1rem 1rem 0;text-decoration:underline;text-underline-offset:.3rem}.dialog-close{position:fixed;top:max(1.8rem,calc((100vh - min(100vh - 2rem, 900px))/2 + 1rem));right:max(2rem,calc((100vw - 1100px)/2 + 1rem));z-index:2;border:1px solid #fff;background:#101523;color:#fff;border-radius:50%;width:44px;height:44px;font-size:1.6rem;cursor:pointer;line-height:1}
+@media(max-width:800px){.site-header{position:absolute;align-items:flex-start;flex-wrap:wrap;gap:.5rem;padding-top:1rem}.site-header nav{order:3;width:100%;gap:.2rem 1.2rem;flex-wrap:wrap;font-size:.66rem}.site-header nav a{padding:.35rem 0}.header-about{font-size:.65rem}.hero{min-height:680px;background-position:60% center}.hero-content{margin-top:5rem}.hero h1{font-size:clamp(3.1rem,10vw,5rem)}.hero-bottom span:last-child{display:none}.introduction{padding:6rem 0 3rem;grid-template-columns:1fr}.collection-links{grid-template-columns:1fr;margin-top:1rem}.collection-links a:not(:first-child){padding-left:0;border-left:0}.exhibit-section{padding:5rem 0}.section-heading{display:block}.section-heading>p{margin-top:1.5rem}.exhibit-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:2.5rem .8rem}.card-image{height:clamp(170px,43vw,320px)}.deep-grid .exhibit-card:first-child,.deep-grid .exhibit-card:nth-child(2){grid-column:span 1}.deep-grid .exhibit-card:first-child .card-image,.deep-grid .exhibit-card:nth-child(2) .card-image{height:clamp(170px,43vw,320px)}.card-meta{font-size:.55rem}.card-title{font-size:1.5rem}.subheading{display:block;margin-top:4rem}.distance-layout,.about{grid-template-columns:1fr;gap:3rem}.distance-section{padding:5rem 0}.distance-caption{margin-top:2rem}.about{padding:6rem 0}footer{flex-wrap:wrap}.dialog-inner{display:block}.dialog-image-wrap{position:relative}.dialog-image-wrap img{height:35vh;min-height:200px}.dialog-content{padding:2rem 1.5rem}.dialog-close{top:1.8rem;right:2rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+/* Keep small navigation and catalog metadata readable on both touch and desktop. */
+.site-header nav,.header-about,.collection-links span,.section-note,.panel-label,.card-meta,.card-action,.distance-caption,footer{font-size:max(.72rem,11.5px)}
+@media(max-width:800px){.site-header nav,.header-about{font-size:.72rem}.card-meta{font-size:.72rem}}
+@media(min-width:1600px){.hero{background-image:linear-gradient(90deg,rgba(4,7,16,.87) 0%,rgba(5,8,17,.48) 46%,rgba(5,8,17,.05) 100%),linear-gradient(0deg,#050811 0%,transparent 24%),url('assets/carina-3840.jpg')}}
+@media(prefers-reduced-motion:no-preference){.hero{animation:cosmic-drift 45s ease-in-out infinite alternate}@keyframes cosmic-drift{from{background-position:50% 47%}to{background-position:53% 49%}}}
+
+/* Optional NASA experiences stay out of the way until a visitor asks for them. */
+#exhibit-dialog [hidden]{display:none!important}
+.surface-view{margin:2rem 0 0}
+.surface-view img{display:block;width:100%;height:auto;max-height:280px;object-fit:cover}
+.surface-view figcaption{color:#bfc5d1;font-size:.75rem;line-height:1.5;margin-top:.7rem}
+.surface-view figcaption a{color:#b7dfff;text-decoration:underline;text-underline-offset:.2em}
+.nasa-explorer{margin-top:2.5rem;padding:1.5rem;background:#183351;border:1px solid #444d60}
+.dialog-content .nasa-explorer h3{margin:0 0 .4rem;font-size:1.5rem}
+.nasa-explorer-heading p,.nasa-explorer-note{margin:0;color:#c6ccda;font-size:.8rem;line-height:1.5}
+.nasa-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+.nasa-actions button,.nasa-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.65rem .9rem;border:1px solid #76bfff;background:#d8edff;color:#151320;font-weight:700;font-size:.77rem;line-height:1.2;text-decoration:none;cursor:pointer}
+.nasa-actions a{background:transparent;color:#eaf3ff}
+.nasa-actions button:hover{background:#a5d4fa}.nasa-actions a:hover{background:#30394b}
+.nasa-embed-container{margin-top:1rem;background:#050811;aspect-ratio:4/3;min-height:260px}
+.nasa-embed-container iframe{display:block;border:0;width:100%;height:100%}
+.nasa-explorer-note{margin-top:1rem}
+@media(max-width:800px){.nasa-explorer{padding:1.1rem}.nasa-actions button,.nasa-actions a{flex:1 1 auto}.nasa-embed-container{min-height:220px}}
+.dialog-content>a.nasa-info-button{display:inline-flex;align-items:center;min-height:44px;padding:.65rem .9rem;border:1px solid #76bfff;color:#eaf3ff;text-decoration:none;font-weight:700}
+.dialog-content>a.nasa-info-button:hover{background:#30394b}
+
+/* NASA's simulator lives in its own top-layer dialog, not inside the exhibit. */
+#nasa-viewer-dialog[open]{display:flex;flex-direction:column;width:min(95vw,1920px);height:min(95dvh,1200px);max-width:none;max-height:none;margin:auto;padding:0;overflow:hidden;border:1px solid #454d60;background:#050811;color:#eaf3ff}
+#nasa-viewer-dialog::backdrop{background:rgba(2,4,10,.94)}
+.nasa-viewer-header{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex:none;min-height:62px;padding:.45rem 1rem .45rem 1.25rem;background:#101624;border-bottom:1px solid #353f52}
+.nasa-viewer-title{display:flex;align-items:baseline;gap:1rem;min-width:0}
+.nasa-viewer-title span{color:#a8c4df;font-size:.65rem;font-weight:700;letter-spacing:.1em;white-space:nowrap}
+.nasa-viewer-title h2{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin:0;font:1.4rem var(--serif);letter-spacing:0}
+.nasa-viewer-controls{display:flex;align-items:center;gap:1rem;flex:none}
+.nasa-viewer-controls p{margin:0;color:#c6ccda;font-size:.78rem}
+.nasa-viewer-controls a{text-decoration:underline;text-underline-offset:.25em;color:#eaf3ff}
+.nasa-viewer-controls button{width:44px;height:44px;flex:none;border:1px solid #798194;background:transparent;color:#fff;font-size:1.65rem;line-height:1;cursor:pointer}
+.nasa-viewer-controls button:hover{background:#30394b}
+.nasa-viewer-frame{flex:1;min-height:0;background:#050811}
+.nasa-viewer-frame iframe{display:block;width:100%;height:100%;border:0}
+@media(max-width:800px){#nasa-viewer-dialog[open]{width:100vw;height:100dvh;border:0}.nasa-viewer-header{padding:.4rem .6rem;gap:.5rem}.nasa-viewer-title{display:block}.nasa-viewer-title span{display:block;font-size:.56rem}.nasa-viewer-title h2{font-size:1.2rem}.nasa-viewer-controls{gap:.5rem}.nasa-viewer-controls p{font-size:.7rem;max-width:100px;line-height:1.25}}
+
+/* The Solar System is a photographic journey, not a grid of boxed covers. */
+#solar-system{position:relative;isolation:isolate}
+#solar-system::before{content:"";position:absolute;z-index:-1;top:0;bottom:0;left:calc(50% - 50vw);width:100vw;pointer-events:none;background:linear-gradient(180deg,#050811 0%,rgba(5,7,13,.85) 12%,rgba(5,7,13,.87) 82%,#050811 100%),url('assets/milky-way.jpg') center/cover}
+.solar-direction{display:flex;gap:.8rem;align-items:center;color:#c1c6d1;font-size:.65rem;font-weight:700;letter-spacing:.14em;margin:3.5rem 0 1rem}
+.solar-direction span:last-child{margin-left:auto;color:#929bab;font-weight:400}
+.solar-scene{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));column-gap:1rem;row-gap:1rem;align-items:center}
+.planet-object{--world-size:175px;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:290px;width:100%;padding:1rem 0;text-align:center;background:transparent;border:0;cursor:pointer}
+.planet-object:nth-child(5n+2),.planet-object:nth-child(5n+4){transform:translateY(2rem)}
+.planet-image{display:flex;align-items:center;justify-content:center;width:min(100%,var(--world-size));height:210px;overflow:visible}
+.planet-image img{display:block;width:100%;max-height:100%;height:auto;object-fit:contain;mix-blend-mode:screen;transition:transform .7s cubic-bezier(.2,.7,.2,1),filter .7s}
+.planet-object:hover .planet-image img,.planet-object:focus-visible .planet-image img{transform:scale(1.07);filter:brightness(1.17)}
+.planet-object[data-id="sun"]{--world-size:220px}.planet-object[data-id="mercury"]{--world-size:125px}.planet-object[data-id="venus"]{--world-size:155px}.planet-object[data-id="earth"]{--world-size:165px}.planet-object[data-id="moon"]{--world-size:130px}.planet-object[data-id="mars"]{--world-size:150px}.planet-object[data-id="jupiter"]{--world-size:230px}.planet-object[data-id="saturn"]{--world-size:280px}.planet-object[data-id="uranus"]{--world-size:155px}.planet-object[data-id="neptune"]{--world-size:155px}.planet-object[data-id="pluto"]{--world-size:150px}
+.planet-object[data-id="sun"] .planet-image{overflow:hidden;height:190px}
+.planet-object[data-id="sun"] .planet-image img{max-height:none}
+.planet-label{display:flex;flex-direction:column;gap:.15rem;margin-top:.25rem}
+.planet-label .card-title{margin:0;font-size:1.5rem}
+.planet-kind{color:#b0b7c6;font-size:.65rem;letter-spacing:.1em;text-transform:uppercase}
+.dwarf-scene{grid-template-columns:minmax(180px,270px);justify-content:start}
+#solar-system .subheading{margin-top:6rem}
+@media(max-width:800px){.solar-scene{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 .5rem}.planet-object{min-height:240px}.planet-image{height:170px}.planet-object:nth-child(5n+2),.planet-object:nth-child(5n+4){transform:none}.planet-object:nth-child(even){transform:translateY(1.5rem)}.planet-object[data-id="sun"] .planet-image{height:160px}.planet-label .card-title{font-size:1.3rem}.dwarf-scene{grid-template-columns:minmax(150px,190px)}#solar-system .subheading{margin-top:5rem}}
+.planet-image img{mix-blend-mode:normal}
+
+/* A cool, night-sky palette links the collections without tinting the images. */
+:root{--ink:#050811;--paper:#eaf3ff;--muted:#b8c9db;--line:#29445e;--accent:#76bfff;--surface:#183351;--warm:#f6ac66}
+::selection{background:#76bfff;color:#050811}:focus-visible{outline-color:#9ad3ff}
+.site-header nav a:hover,.site-header .header-about:hover{color:#76bfff}.hero h1 span,.brand-dot{color:#f6ac66}
+h2 em{color:#b7dfff}.section-note,.hero-index,.panel-label{color:#94ccf9}
+.primary-link,.nasa-actions button{background:#dcefff;color:#071728;border-color:#76bfff}.primary-link:hover,.nasa-actions button:hover{background:#9bd5ff}
+.card-action,.surface-view figcaption a{color:#9bd2ff}.distance-panel,.nasa-explorer,dialog{background:#0b1629;border-color:#35536d}
+.distance-panel select{background:#183351;border-color:#7795b1}.nasa-viewer-header{background:#0b1629;border-color:#29445e}
+.nasa-viewer-title span,.nasa-viewer-controls a{color:#b7dcfa}.nasa-viewer-controls button:hover,.nasa-actions a:hover,.dialog-content>a.nasa-info-button:hover{background:#183351}
+#solar-system::before{background-image:linear-gradient(180deg,#050811 0%,rgba(5,8,17,.84) 12%,rgba(5,8,17,.88) 82%,#050811 100%),url('assets/milky-way.jpg')}
+.stars-section{background:linear-gradient(180deg,#050811 0%,rgba(5,10,20,.78) 15%,rgba(6,16,31,.82) 85%,#050811 100%),url('assets/milky-way.jpg') center/cover}
+.stellar-note{max-width:55ch;margin:-1.5rem 0 2rem;color:#b8c9db;font-size:.8rem;line-height:1.6}
+.stellar-scene{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));grid-auto-rows:minmax(185px,auto);gap:0 1rem;align-items:center}
+.stellar-object{--stellar-size:200px;grid-column:span 4;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0;min-height:270px;padding:1rem;background:transparent;border:0;color:#eaf3ff;text-align:center;cursor:pointer}
+.stellar-object[data-id="sun"]{grid-column:1 / span 4;grid-row:1 / span 2;--stellar-size:260px;min-height:420px}
+.stellar-object[data-id="sirius"]{grid-column:5 / span 3;grid-row:1;--stellar-size:220px}
+.stellar-object[data-id="betelgeuse"]{grid-column:9 / span 4;grid-row:1;--stellar-size:240px}
+.stellar-object[data-id="polaris"]{grid-column:5 / span 3;grid-row:2;--stellar-size:125px}
+.stellar-object[data-id="vega"]{grid-column:8 / span 2;grid-row:2;--stellar-size:170px}
+.stellar-object[data-id="proxima"]{grid-column:10 / span 3;grid-row:2;--stellar-size:200px}
+.stellar-image{display:flex;align-items:center;justify-content:center;width:min(100%,var(--stellar-size));height:var(--stellar-size)}
+.stellar-image img{display:block;max-width:100%;max-height:100%;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 0 12px rgba(118,191,255,.12));transition:transform .7s cubic-bezier(.2,.7,.2,1),filter .7s}
+.stellar-object[data-id="sun"] img,.stellar-object[data-id="betelgeuse"] img,.stellar-object[data-id="proxima"] img{filter:drop-shadow(0 0 14px rgba(246,172,102,.16))}
+.stellar-object:hover .stellar-image img,.stellar-object:focus-visible .stellar-image img{transform:scale(1.07);filter:brightness(1.16) drop-shadow(0 0 18px rgba(118,191,255,.22))}
+.stellar-label{display:flex;flex-direction:column;align-items:center;gap:.2rem;margin-top:.3rem}
+.stellar-label .card-title{font:1.5rem var(--serif);margin:0}.stellar-method{color:#b8c9db;font-size:.7rem;letter-spacing:.04em}
+@media(max-width:800px){.stellar-scene{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:auto;gap:1rem .4rem}.stellar-object,.stellar-object[data-id]{grid-column:auto;grid-row:auto;min-height:220px;padding:.5rem;--stellar-size:145px}.stellar-object[data-id="sun"]{--stellar-size:165px}.stellar-object[data-id="polaris"]{--stellar-size:110px}.stellar-object[data-id="betelgeuse"]{--stellar-size:165px}.stellar-object[data-id="proxima"]{--stellar-size:150px}.stellar-label .card-title{font-size:1.25rem}.stellar-note{margin:0 0 1.5rem}}
+
+/* A photographic solar system journey: the objects are not drawn to scale. */
+:root{--solar-gold:#ffca52;--solar-orange:#f6a83f}
+.hero{overflow:hidden;background:linear-gradient(90deg,rgba(2,6,14,.97) 0%,rgba(3,9,21,.89) 38%,rgba(3,9,21,.42) 72%,rgba(3,9,21,.32) 100%),linear-gradient(0deg,#050811 0%,transparent 28%),url('assets/carina.jpg') center/cover}
+@media(min-width:1600px){.hero{background-image:linear-gradient(90deg,rgba(2,6,14,.97) 0%,rgba(3,9,21,.89) 38%,rgba(3,9,21,.42) 72%,rgba(3,9,21,.32) 100%),linear-gradient(0deg,#050811 0%,transparent 28%),url('assets/carina-3840.jpg')}}
+.hero-content,.hero-bottom{z-index:1}.hero-content{position:relative}.hero-description{max-width:25rem;color:#e0edf8}.hero h1 span,.brand-dot{color:var(--solar-gold)}
+.hero-system{position:absolute;inset:0;pointer-events:none;overflow:hidden}.hero-system img{position:absolute;object-fit:contain;display:block}.hero-sun{width:min(52vw,730px);right:1%;top:11%;filter:drop-shadow(0 0 40px rgba(249,140,34,.18))}.hero-earth{width:clamp(52px,6vw,90px);right:13%;bottom:19%;filter:drop-shadow(0 0 14px rgba(56,151,255,.35))}.hero-jupiter{width:clamp(90px,12vw,170px);right:37%;bottom:11%;filter:drop-shadow(0 0 15px rgba(246,168,63,.17))}
+.hero-index,.solar-direction{color:#ffdb8b}.primary-link,.nasa-actions button{background:var(--solar-gold);color:#101115;border-color:var(--solar-gold)}.primary-link:hover,.nasa-actions button:hover{background:#ffe0a0}.primary-link:focus-visible,.nasa-actions button:focus-visible{outline-color:#fff0c5}
+#solar-system .section-heading em{color:#ffd37a}#solar-system .section-note{color:#ffc566}
+#solar-grid.solar-scene{display:flex;align-items:center;gap:clamp(.35rem,1.2vw,1.2rem);overflow-x:auto;overflow-y:hidden;overscroll-behavior-inline:contain;padding:1.5rem .25rem 2.5rem;scroll-padding-inline:1rem;scrollbar-width:thin;scrollbar-color:#b67e35 #182638}
+#solar-grid .planet-object{flex:0 0 var(--station-width,145px);width:var(--station-width,145px);min-height:370px;padding:.5rem 0;transform:none}
+#solar-grid .planet-image{width:100%;height:245px;overflow:visible}#solar-grid .planet-image img{max-height:100%;width:100%;object-fit:contain}
+#solar-grid .planet-object[data-id="sun"]{--station-width:300px}#solar-grid .planet-object[data-id="sun"] .planet-image{height:275px}#solar-grid .planet-object[data-id="sun"] .planet-image img{max-height:100%}
+#solar-grid .planet-object[data-id="mercury"]{--station-width:94px}#solar-grid .planet-object[data-id="venus"]{--station-width:115px}#solar-grid .planet-object[data-id="earth"]{--station-width:126px}#solar-grid .planet-object[data-id="moon"]{--station-width:85px}#solar-grid .planet-object[data-id="mars"]{--station-width:113px}#solar-grid .planet-object[data-id="jupiter"]{--station-width:175px}#solar-grid .planet-object[data-id="saturn"]{--station-width:215px}#solar-grid .planet-object[data-id="uranus"],#solar-grid .planet-object[data-id="neptune"]{--station-width:128px}
+#solar-grid .planet-label{min-height:52px;justify-content:flex-start}#solar-grid .planet-label .card-title{font-size:1.3rem}#solar-grid .planet-kind{font-size:.62rem;letter-spacing:.05em}
+#solar-grid .planet-object[data-id="sun"] .card-title{color:#ffdb8b}#solar-grid .planet-object:hover .planet-image img,#solar-grid .planet-object:focus-visible .planet-image img{filter:brightness(1.18) drop-shadow(0 0 12px rgba(255,191,75,.2))}
+#solar-grid::-webkit-scrollbar{height:6px}#solar-grid::-webkit-scrollbar-track{background:#182638}#solar-grid::-webkit-scrollbar-thumb{background:#b67e35}
+@media(max-width:800px){.hero{background-position:center}.hero-content{margin-top:6rem}.hero-system{opacity:.68}.hero-sun{width:min(100vw,460px);right:-25%;top:18%}.hero-earth{width:56px;right:10%;bottom:23%}.hero-jupiter{width:100px;right:47%;bottom:12%}.hero-description{max-width:19rem;text-shadow:0 1px 8px #050811}.hero-content h1,.hero-subtitle{text-shadow:0 2px 20px #050811}#solar-grid.solar-scene{gap:.7rem;padding-top:.5rem;padding-bottom:1.7rem}#solar-grid .planet-object{min-height:285px}#solar-grid .planet-image{height:185px}#solar-grid .planet-object[data-id="sun"]{--station-width:220px}#solar-grid .planet-object[data-id="sun"] .planet-image{height:200px}#solar-grid .planet-label .card-title{font-size:1.2rem}.solar-direction{font-size:.6rem;gap:.4rem}}
+/* Blend the observatory photograph's dark surround without altering its solar detail. */
+.hero-sun{mix-blend-mode:screen;mask-image:linear-gradient(to bottom,transparent,black 10%,black 84%,transparent 95%);-webkit-mask-image:linear-gradient(to bottom,transparent,black 10%,black 84%,transparent 95%)}
+#solar-grid .planet-label .card-title{white-space:nowrap}
+.hero-sun{mix-blend-mode:normal;mask-image:linear-gradient(to right,transparent,black 17%,black 83%,transparent),linear-gradient(to bottom,transparent,black 12%,black 82%,transparent 95%);mask-composite:intersect;-webkit-mask-image:linear-gradient(to right,transparent,black 17%,black 83%,transparent),linear-gradient(to bottom,transparent,black 12%,black 82%,transparent 95%);-webkit-mask-composite:source-in}
+
+/* Hero: a photographic panorama, composed for this page and not to scale. */
+.hero{display:block;height:100dvh;min-height:0;overflow:hidden;isolation:isolate;background:#02040a;animation:none}
+@media(min-width:1600px){.hero{background:#02040a}}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background-image:radial-gradient(1px 1px at 28px 42px,rgba(208,226,255,.48) 98%,transparent),radial-gradient(1px 1px at 108px 120px,rgba(164,198,244,.3) 98%,transparent);background-size:239px 211px,347px 263px;opacity:.45}
+.hero-heading{position:absolute;z-index:1;top:15%;left:0;right:0;text-align:center;pointer-events:none;padding:0 1rem}
+.hero-heading h1{margin:0;color:#eef5ff;font:600 clamp(1.2rem,2vw,1.7rem)/1.15 var(--sans);letter-spacing:.16em}
+.hero-heading .hero-subtitle{margin:.75rem 0 0;color:#dbe6f1;font:italic clamp(1rem,1.5vw,1.25rem) var(--serif);text-shadow:none}
+.hero-cosmos{position:absolute;inset:0;overflow-x:auto;overflow-y:hidden;overscroll-behavior-inline:contain;scrollbar-width:none}
+.hero-cosmos::-webkit-scrollbar{display:none}.hero-cosmos:focus-visible{outline:2px solid #f6bc55;outline-offset:-4px}
+.hero-panorama{position:relative;width:max(100%,1100px);height:100%;min-height:0}
+.hero-world{position:absolute;top:52%;transform:translateY(-50%);display:grid;place-items:center;border:0;padding:0;min-width:44px;min-height:44px;background:transparent;cursor:pointer}
+.hero-world img{display:block;width:100%;height:auto;object-fit:contain;transition:transform .6s ease,filter .6s ease}
+.hero-world:hover img,.hero-world:focus-visible img{transform:scale(1.07);filter:brightness(1.14)}
+.hero-world-sun{left:-29%;width:51%}.hero-world-sun img{mix-blend-mode:screen;mask-image:linear-gradient(to bottom,transparent,black 9%,black 85%,transparent 96%);-webkit-mask-image:linear-gradient(to bottom,transparent,black 9%,black 85%,transparent 96%);filter:drop-shadow(0 0 24px rgba(255,157,43,.22))}
+.hero-world-mercury{left:20%;width:3.4%}.hero-world-venus{left:25.5%;width:4.7%}.hero-world-earth{left:31.5%;width:5.3%}.hero-world-mars{left:38%;width:4.2%}.hero-world-jupiter{left:44%;width:15%}.hero-world-saturn{left:58%;width:22%}.hero-world-saturn img{mix-blend-mode:screen}.hero-world-uranus{left:81%;width:6.2%}.hero-world-neptune{left:90%;width:5.4%}
+.hero-entrance{position:absolute;z-index:1;bottom:14%;left:0;right:0;display:flex;align-items:center;flex-direction:column;pointer-events:none}.hero-entrance .primary-link{pointer-events:auto;min-width:0;gap:1.25rem;margin:0;padding:.75rem 1rem;border:1px solid rgba(255,222,155,.75);background:rgba(7,11,18,.84);color:#fff0d1;font-size:.72rem}.hero-entrance .primary-link:hover{background:#ffca52;color:#101115}
+.hero-swipe{display:none}.hero-bottom{bottom:1.5rem;gap:1rem;flex-wrap:wrap;color:#aebdce;font-size:.6rem;letter-spacing:.1em}
+@media(max-width:800px){.hero-heading{top:17%}.hero-heading h1{font-size:1.05rem;letter-spacing:.12em}.hero-heading .hero-subtitle{font-size:1rem}.hero-cosmos{inset:0}.hero-panorama{width:1100px}.hero-world{top:51%}.hero-entrance{bottom:14%}.hero-swipe{display:block;color:#c3d1de;font-size:.72rem;margin:.7rem 0 0}.hero-bottom{bottom:1.25rem;left:1rem;right:1rem}.hero-bottom span:last-child{display:none}}
+.hero{background-color:#000}
+@media(min-width:1600px){.hero{background-color:#000}}
+.hero-world-sun img{mask-image:linear-gradient(to right,black 80%,transparent),linear-gradient(to bottom,transparent,black 9%,black 85%,transparent 96%);mask-composite:intersect;-webkit-mask-image:linear-gradient(to right,black 80%,transparent),linear-gradient(to bottom,transparent,black 9%,black 85%,transparent 96%);-webkit-mask-composite:source-in}

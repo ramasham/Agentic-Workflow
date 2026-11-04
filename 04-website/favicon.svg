@@ -1,5 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="6" fill="#eae2f3"/>
-  <path d="M12 8H8v16h4M20 8h4v16h-4" fill="none" stroke="#573a88" stroke-width="3" stroke-linecap="square"/>
-  <rect x="14" y="14" width="4" height="4" fill="#211832"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">The Curiosity Lab — ringed planet</title>
+  <defs>
+    <radialGradient id="planet" cx="28%" cy="25%" r="80%">
+      <stop offset="0" stop-color="#FFE09B"/>
+      <stop offset="0.42" stop-color="#F6B947"/>
+      <stop offset="1" stop-color="#CB571C"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="#071323"/>
+  <path d="M12 12v7M8.5 15.5h7M52 9v5M49.5 11.5h5" stroke="#E9F6FF" stroke-linecap="round" stroke-width="1.8"/>
+  <circle cx="33" cy="34" r="15" fill="url(#planet)"/>
+  <path d="M12 46c7.5-3.7 16.3-8 25-12.2C48.8 28 56.2 22.6 55 19.5c-1-2.6-8.7-2.1-19.5 1.4" fill="none" stroke="#7ED7FF" stroke-width="3.2" stroke-linecap="round" opacity=".85"/>
+  <path d="M11 47c3.8 4.1 16.7 1.4 29.3-4.4C51 37.7 57 32.1 55 29" fill="none" stroke="#FFF3CE" stroke-width="2.5" stroke-linecap="round"/>
 </svg>

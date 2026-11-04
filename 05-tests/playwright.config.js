@@ -15,7 +15,7 @@ module.exports = defineConfig({
     { name: 'desktop', use: { ...devices['Desktop Chrome'], viewport: { width: 1440, height: 900 } } },
   ],
   webServer: {
-    command: 'python3 -m http.server 8765 --bind 127.0.0.1 --directory ../04-website',
+    command: 'python3 pages_test_server.py',
     cwd: __dirname,
     url: 'http://127.0.0.1:8765/',
     reuseExistingServer: false,

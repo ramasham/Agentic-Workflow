@@ -1,0 +1,231 @@
+{
+  "mercury": {
+    "id": "PIA15162",
+    "title": "Mercury Globe: 0°N, 180°E",
+    "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington",
+    "source": "https://images.nasa.gov/details/PIA15162",
+    "asset": "https://images-assets.nasa.gov/image/PIA15162/PIA15162~large.jpg",
+    "scene_derivative": "mercury-space.webp",
+    "derivative_note": "Resized; near-black background made transparent for display. Original image retained for exhibit."
+  },
+  "venus": {
+    "id": "PIA00270",
+    "title": "Venus - Computer Simulated Global View Centered at 90 Degrees East Longitude",
+    "credit": "NASA/JPL",
+    "source": "https://images.nasa.gov/details/PIA00270",
+    "asset": "https://images-assets.nasa.gov/image/PIA00270/PIA00270~medium.jpg",
+    "scene_derivative": "venus-space.webp",
+    "derivative_note": "Resized; near-black background made transparent for display. Original image retained for exhibit."
+  },
+  "earth": {
+    "id": "GSFC_20171208_Archive_e001386",
+    "title": "Most Amazing High Definition Image of Earth - Blue Marble 2012",
+    "credit": "NASA",
+    "source": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001386",
+    "asset": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001386/GSFC_20171208_Archive_e001386~medium.jpg",
+    "scene_derivative": "earth-space.webp",
+    "derivative_note": "Resized; near-black background made transparent for display. Original image retained for exhibit."
+  },
+  "mars": {
+    "id": "PIA00407",
+    "title": "Global Color Views of Mars",
+    "credit": "NASA/JPL/USGS",
+    "source": "https://images.nasa.gov/details/PIA00407",
+    "asset": "https://images-assets.nasa.gov/image/PIA00407/PIA00407~large.jpg",
+    "scene_derivative": "mars-space.webp",
+    "derivative_note": "Resized; near-black background made transparent for display. Original image retained for exhibit."
+  },
+  "jupiter": {
+    "id": "PIA22946",
+    "title": "Jupiter Marble",
+    "credit": "NASA",
+    "source": "https://images.nasa.gov/details/PIA22946",
+    "asset": "https://images-assets.nasa.gov/image/PIA22946/PIA22946~large.jpg",
+    "scene_derivative": "jupiter-space.webp",
+    "derivative_note": "Resized; near-black background made transparent for display. Original image retained for exhibit."
+  },
+  "saturn": {
+    "id": "PIA17172",
+    "title": "The Day the Earth Smiled",
+    "credit": "NASA/JPL-Caltech/SSI",
+    "source": "https://images.nasa.gov/details/PIA17172",
+    "asset": "https://images-assets.nasa.gov/image/PIA17172/PIA17172~medium.jpg",
+    "scene_derivative": "saturn-space.webp",
+    "derivative_note": "Resized; near-black background made transparent for display. Original image retained for exhibit."
+  },
+  "uranus": {
+    "id": "PIA18182",
+    "title": "Uranus as seen by NASA Voyager 2",
+    "credit": "NASA/JPL-Caltech",
+    "source": "https://images.nasa.gov/details/PIA18182",
+    "asset": "https://images-assets.nasa.gov/image/PIA18182/PIA18182~medium.jpg",
+    "scene_derivative": "uranus-space.webp",
+    "derivative_note": "Resized; near-black background made transparent for display. Original image retained for exhibit."
+  },
+  "neptune": {
+    "id": "PIA00046",
+    "title": "Neptune Full Disk",
+    "credit": "NASA/JPL",
+    "source": "https://images.nasa.gov/details/PIA00046",
+    "asset": "https://images-assets.nasa.gov/image/PIA00046/PIA00046~orig.jpg",
+    "scene_derivative": "neptune-space.webp",
+    "derivative_note": "Resized; near-black background made transparent for display. Original image retained for exhibit."
+  },
+  "moon": {
+    "id": "art002e009276",
+    "title": "Even Closer Now",
+    "credit": "NASA",
+    "source": "https://images.nasa.gov/details/art002e009276",
+    "asset": "https://images-assets.nasa.gov/image/art002e009276/art002e009276~medium.jpg",
+    "scene_derivative": "moon-space.webp",
+    "derivative_note": "Resized; near-black background made transparent for display. Original image retained for exhibit."
+  },
+  "pluto": {
+    "id": "PIA19952",
+    "title": "The Rich Color Variations of Pluto",
+    "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute",
+    "source": "https://images.nasa.gov/details/PIA19952",
+    "asset": "https://images-assets.nasa.gov/image/PIA19952/PIA19952~large.jpg",
+    "scene_derivative": "pluto-space.webp",
+    "derivative_note": "Resized; near-black background made transparent for display. Original image retained for exhibit."
+  },
+  "sun": {
+    "id": "PIA26681",
+    "title": " Image of Sun From NASA's Solar Dynamics Observatory",
+    "credit": "NASA/GSFC/Solar Dynamics Observatory",
+    "source": "https://images.nasa.gov/details/PIA26681",
+    "asset": "https://images-assets.nasa.gov/image/PIA26681/PIA26681~medium.jpg",
+    "scene_derivative": "sun-space.webp",
+    "derivative_note": "Resized; near-black background made transparent for display. Original image retained for exhibit. Bottom timestamp cropped in scene version.",
+    "stellar_scene_derivative": "sun-space.webp"
+  },
+  "betelgeuse": {
+    "id": "PIA16680",
+    "title": "Betelgeuse Enigmatic Environment",
+    "credit": "ESA/Herschel/PACS/L. Decin et al.",
+    "source": "https://images.nasa.gov/details/PIA16680",
+    "asset": "https://images-assets.nasa.gov/image/PIA16680/PIA16680~orig.jpg",
+    "nasa_further_reading": "https://science.nasa.gov/asset/hubble/disruption-of-the-red-supergiant-star-betelgeuse/",
+    "stellar_scene_derivative": "betelgeuse-stellar.webp",
+    "stellar_derivative_note": "Original observation resized only as needed and edges faded; not a resolved stellar surface."
+  },
+  "vega": {
+    "id": "PIA16610",
+    "title": "Rocky Ring of Debris Around Vega Artist Concept",
+    "credit": "NASA/JPL-Caltech",
+    "source": "https://images.nasa.gov/details/PIA16610",
+    "asset": "https://images-assets.nasa.gov/image/PIA16610/PIA16610~medium.jpg",
+    "nasa_further_reading": "https://science.nasa.gov/asset/hubble/hubble-and-webb-observations-of-vega-circumstellar-disk/",
+    "stellar_scene_derivative": "vega-stellar.webp",
+    "stellar_derivative_note": "Cropped from the NASA/JPL-Caltech artist’s impression; edges faded."
+  },
+  "milky-way": {
+    "id": "PIA12348",
+    "title": "Great Observatories Unique Views of the Milky Way",
+    "credit": "NASA/JPL-Caltech/ESA/CXC/STScI",
+    "source": "https://images.nasa.gov/details/PIA12348",
+    "asset": "https://images-assets.nasa.gov/image/PIA12348/PIA12348~medium.jpg"
+  },
+  "andromeda": {
+    "id": "PIA04921",
+    "title": "Andromeda Galaxy",
+    "credit": "NASA/JPL/California Institute of Technology",
+    "source": "https://images.nasa.gov/details/PIA04921",
+    "asset": "https://images-assets.nasa.gov/image/PIA04921/PIA04921~medium.jpg"
+  },
+  "orion": {
+    "title": "File:Orion Nebula - Hubble 2006 mosaic 18000.jpg",
+    "credit": "NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion Treasury Project Team",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg",
+    "asset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg/1920px-Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg"
+  },
+  "carina": {
+    "id": "carina_nebula",
+    "title": "James Webb Space Telescope NIRCam Image of the “Cosmic Cliffs” in Carina Nebula",
+    "credit": "NASA",
+    "source": "https://images.nasa.gov/details/carina_nebula",
+    "asset": "https://images-assets.nasa.gov/image/carina_nebula/carina_nebula~medium.jpg"
+  },
+  "sagittarius-a": {
+    "title": "File:A view of the Milky Way supermassive black hole Sagittarius A* in polarised light (eso2406a).jpg",
+    "credit": "EHT Collaboration",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:A_view_of_the_Milky_Way_supermassive_black_hole_Sagittarius_A*_in_polarised_light_(eso2406a).jpg",
+    "asset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/A_view_of_the_Milky_Way_supermassive_black_hole_Sagittarius_A%2A_in_polarised_light_%28eso2406a%29.jpg/1920px-A_view_of_the_Milky_Way_supermassive_black_hole_Sagittarius_A%2A_in_polarised_light_%28eso2406a%29.jpg"
+  },
+  "m87": {
+    "id": "PIA23122",
+    "title": "Spitzer Captures Messier 87",
+    "credit": "NASA/JPL-Caltech/IPAC/Event Horizon Telescope Collaboration",
+    "source": "https://images.nasa.gov/details/PIA23122",
+    "asset": "https://images-assets.nasa.gov/image/PIA23122/PIA23122~medium.jpg"
+  },
+  "sirius": {
+    "title": "File:Sirius A and B Hubble photo.jpg",
+    "credit": "NASA, ESA, H. Bond (STScI), and M. Barstow (University of Leicester)",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Sirius_A_and_B_Hubble_photo.jpg",
+    "asset": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Sirius_A_and_B_Hubble_photo.jpg",
+    "nasa_further_reading": "https://science.nasa.gov/asset/hubble/the-dog-star-sirius-and-its-tiny-companion/",
+    "stellar_scene_derivative": "sirius-stellar.webp",
+    "stellar_derivative_note": "Original observation resized only as needed and edges faded; not a resolved stellar surface."
+  },
+  "proxima": {
+    "title": "File:New shot of Proxima Centauri, our nearest neighbour.jpg",
+    "credit": "ESA/Hubble &amp; NASA",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:New_shot_of_Proxima_Centauri,_our_nearest_neighbour.jpg",
+    "asset": "https://upload.wikimedia.org/wikipedia/commons/9/95/New_shot_of_Proxima_Centauri%2C_our_nearest_neighbour.jpg",
+    "nasa_further_reading": "https://science.nasa.gov/asset/hubble/proxima-centauri/",
+    "stellar_scene_derivative": "proxima-stellar.webp",
+    "stellar_derivative_note": "Original observation resized only as needed and edges faded; not a resolved stellar surface."
+  },
+  "polaris": {
+    "title": "File:Polaris A and Polaris B (opo0602c).jpg",
+    "credit": "<a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://www.nasa.gov\" href=\"https://www.nasa.gov\">NASA</a>, <a rel=\"nofollow\" class=\"external text\" href=\"http://www.esa.int\">ESA</a>, N. Evans (Harvard-Smithsonian CfA), and H. Bond (<a rel=\"nofollow\" class=\"external text\" href=\"http://www.stsci.edu\">STScI</a>)",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Polaris_A_and_Polaris_B_(opo0602c).jpg",
+    "asset": "https://upload.wikimedia.org/wikipedia/commons/5/53/Polaris_A_and_Polaris_B_%28opo0602c%29.jpg",
+    "nasa_further_reading": "https://science.nasa.gov/asset/hubble/hubble-images-polariss-companion/",
+    "stellar_scene_derivative": "polaris-stellar.webp",
+    "stellar_derivative_note": "Cropped to the brighter star in the Hubble field; edges faded."
+  },
+  "carina-3840": {
+    "title": "File:NASA’s Webb Reveals Cosmic Cliffs, Glittering Landscape of Star Birth.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:NASA%E2%80%99s_Webb_Reveals_Cosmic_Cliffs,_Glittering_Landscape_of_Star_Birth.jpg",
+    "asset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/NASA%E2%80%99s_Webb_Reveals_Cosmic_Cliffs%2C_Glittering_Landscape_of_Star_Birth.jpg/3840px-NASA%E2%80%99s_Webb_Reveals_Cosmic_Cliffs%2C_Glittering_Landscape_of_Star_Birth.jpg",
+    "credit": "<p>Image: \n</p>\n<ul><li><a href=\"https://en.wikipedia.org/wiki/NASA\" class=\"extiw\" title=\"w:NASA\">National Aeronautics and Space Administration</a>  (a <a href=\"https://en.wikipedia.org/wiki/U.S._federal_government\" class=\"extiw\" title=\"w:U.S. federal government\">U.S. federal government</a> agency; <a rel=\"nofollow\" class=\"external free\" href=\"https://www.nasa.gov/\">https://www.nasa.gov/</a>)</li>\n<li><a href=\"https://en.wikipedia.org/wiki/ESA\" class=\"extiw\" title=\"w:ESA\">European space agency</a> (<a rel=\"nofollow\" class=\"external free\" href=\"https://www.esa.int/\">https://www.esa.int/</a>), <a href=\"https://en.wikipedia.org/wiki/Canadian_Space_Agency\" class=\"extiw\" title=\"w:Canadian Space Agency\">Canadian Space Agency</a> (<a rel=\"nofollow\" class=\"external free\" href=\"https://www.asc-csa.gc.ca/eng/\">https://www.asc-csa.gc.ca/eng/</a>)</li>\n<li><a href=\"https://en.wikipedia.org/wiki/STScI\" class=\"extiw\" title=\"w:STScI\">Space Telescope Science Institute</a> (<a rel=\"nofollow\" class=\"external free\" href=\"https://www.stsci.edu/\">https://www.stsci.edu/</a>, science operations center for the <a href=\"https://en.wikipedia.org/wiki/Hubble_Space_Telescope\" class=\"extiw\" title=\"w:Hubble Space Telescope\">Hubble Space Telescope</a>)</li></ul>",
+    "license": "Public domain"
+  },
+  "mercury-legacy": {
+    "id": "PIA12051",
+    "title": "A Global View of Mercury Surface",
+    "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Smithsonian Institution/Carnegie Institution of Washington",
+    "source": "https://images.nasa.gov/details/PIA12051",
+    "asset": "https://images-assets.nasa.gov/image/PIA12051/PIA12051~orig.jpg"
+  },
+  "mercury-crater": {
+    "id": "PIA18372",
+    "title": "Crater Close-up Captured!",
+    "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington",
+    "source": "https://images.nasa.gov/details/PIA18372",
+    "asset": "https://images-assets.nasa.gov/image/PIA18372/PIA18372~orig.jpg"
+  },
+  "hero-saturn": {
+    "id": "PIA11141",
+    "title": "Saturn … Four Years On",
+    "credit": "NASA/JPL/Space Science Institute",
+    "source": "https://images.nasa.gov/details/PIA11141",
+    "asset": "https://images-assets.nasa.gov/image/PIA11141/PIA11141~large.jpg",
+    "usage": "Hero panorama only; composited with other NASA images and not to scale."
+  },
+  "hero-venus": {
+    "id": "PIA23791",
+    "title": "Venus from Mariner 10",
+    "credit": "NASA/JPL-Caltech, image processing Kevin M. Gill",
+    "source": "https://images.nasa.gov/details/PIA23791",
+    "asset": "https://images-assets.nasa.gov/image/PIA23791/PIA23791~orig.jpg",
+    "usage": "Hero panorama only; the left view is cropped from the two-panel image. False-color orange/ultraviolet composite."
+  }
+}

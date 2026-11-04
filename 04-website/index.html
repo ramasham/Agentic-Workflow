@@ -1,108 +1,46 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A computer science portfolio focused on backend engineering and systems projects.">
-  <title>Developer Portfolio | Backend &amp; Systems</title>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Explore planets, stars, galaxies and the distances between them at The Curiosity Lab.">
+<title>The Curiosity Lab — Explore the Universe</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
 </head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">[ ]</span> Inside the System</a>
-      <nav aria-label="Main navigation">
-        <ul class="nav-list">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+<body id="top">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><a class="brand" href="#top">THE CURIOSITY <span>LAB</span><span class="brand-dot">.</span></a><nav aria-label="Exhibit navigation"><a href="#solar-system">Solar System</a><a href="#stars">Stars</a><a href="#deep-space">Deep Space</a><a href="#universe">Cosmic Distances</a></nav><a class="header-about" href="#about">Behind the Lab ↗</a></header>
+<main id="main">
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-heading"><h1 id="hero-title">THE CURIOSITY LAB</h1><p class="hero-subtitle">Explore the Universe.</p></div>
+  <div class="hero-cosmos" role="region" aria-label="Solar system panorama. Scroll horizontally to explore the planets." tabindex="0">
+    <div class="hero-panorama">
+      <button class="hero-world hero-world-sun" data-id="sun" type="button" aria-label="Explore the Sun"><img src="assets/sun.jpg" alt=""></button>
+      <button class="hero-world hero-world-mercury" data-id="mercury" type="button" aria-label="Explore Mercury"><img src="assets/mercury-space.webp" alt=""></button>
+      <button class="hero-world hero-world-venus" data-id="venus" type="button" aria-label="Explore Venus"><img src="assets/hero-venus.webp" alt=""></button>
+      <button class="hero-world hero-world-earth" data-id="earth" type="button" aria-label="Explore Earth"><img src="assets/earth-space.webp" alt=""></button>
+      <button class="hero-world hero-world-mars" data-id="mars" type="button" aria-label="Explore Mars"><img src="assets/mars-space.webp" alt=""></button>
+      <button class="hero-world hero-world-jupiter" data-id="jupiter" type="button" aria-label="Explore Jupiter"><img src="assets/jupiter-space.webp" alt=""></button>
+      <button class="hero-world hero-world-saturn" data-id="saturn" type="button" aria-label="Explore Saturn"><img src="assets/hero-saturn.jpg" alt=""></button>
+      <button class="hero-world hero-world-uranus" data-id="uranus" type="button" aria-label="Explore Uranus"><img src="assets/uranus-space.webp" alt=""></button>
+      <button class="hero-world hero-world-neptune" data-id="neptune" type="button" aria-label="Explore Neptune"><img src="assets/neptune-space.webp" alt=""></button>
     </div>
+  </div>
+  <div class="hero-entrance"><a class="primary-link" href="#collections">Begin Exploring <span aria-hidden="true">↓</span></a><p class="hero-swipe">Swipe to explore the planets →</p></div>
+  <div class="hero-bottom"><span>NOT TO SCALE · FALSE-COLOR IMAGERY · NASA / JPL / SSI / SDO</span><span>SUN AND VENUS SHOWN IN FALSE COLOR</span></div>
+</section>
+<section class="introduction wrap" id="collections"><div><p class="section-note">A FIELD GUIDE TO THE COSMOS</p><h2>There is more<br>out <em>there.</em></h2></div><div class="intro-copy"><p>From our own celestial neighborhood to the edge of what we can see, every point of light has a story.</p><p>Choose a direction and follow your curiosity.</p></div><div class="collection-links"><a href="#solar-system"><span>01 / OUR NEIGHBORHOOD</span><strong>Solar System</strong><b>↗</b></a><a href="#stars"><span>02 / POINTS OF LIGHT</span><strong>Stars</strong><b>↗</b></a><a href="#deep-space"><span>03 / BEYOND THE FAMILIAR</span><strong>Deep Space</strong><b>↗</b></a></div></section>
+<section class="exhibit-section wrap" id="solar-system"><div class="section-heading"><div><p class="section-note">OUR COSMIC NEIGHBORHOOD</p><h2>The Solar <em>System.</em></h2></div><p>A journey through our celestial neighborhood. Select a world to discover its story.</p></div><p class="solar-direction">SCROLL TO TRAVEL FROM THE SUN <span aria-hidden="true">→</span> <span>NOT TO SCALE</span></p><div class="solar-scene" id="solar-grid" role="region" aria-label="Solar system lineup. Scroll to explore the worlds." tabindex="0"></div><div class="subheading"><div><p class="section-note">A WORLD OF ITS OWN</p><h3>Beyond the eight</h3></div><p>Meet Pluto, a small world with a big story.</p></div><div class="solar-scene dwarf-scene" id="dwarf-grid"></div></section>
+<section class="exhibit-section stars-section" id="stars"><div class="wrap"><div class="section-heading"><div><p class="section-note">DISTANT SUNS</p><h2>Written in the <em>stars.</em></h2></div><p>Some guide us, some are nearing their final act, and one makes life on Earth possible. Select a light to learn its story.</p></div><p class="stellar-note">Telescope observations and an artist’s impression. Colors and apparent sizes are not to scale.</p><div class="stellar-scene" id="stars-grid"></div></div></section>
+<section class="exhibit-section wrap" id="deep-space"><div class="section-heading"><div><p class="section-note">BEYOND OUR SOLAR SYSTEM</p><h2>Into the <em>deep.</em></h2></div><p>Stellar nurseries, island universes, and the extraordinary objects at their hearts.</p></div><div class="exhibit-grid deep-grid" id="deep-grid"></div></section>
+<section class="distance-section" id="universe"><div class="wrap distance-layout"><div class="distance-intro"><p class="section-note">THE UNIVERSE / AN INTERACTIVE EXPERIMENT</p><h2>Space is vast.<br><em>Light takes time.</em></h2><p>Light travels at 299,792 kilometres per second. Even at that speed, the journey across space takes a little while.</p><p class="distance-caption">ONE WAY FROM EARTH &nbsp; · &nbsp; NOT TO SCALE</p></div><div class="distance-panel"><p class="panel-label">THE DISTANCE EXPERIMENT</p><h3>How long does light take?</h3><label for="destination">Choose a destination</label><select id="destination"><option value="moon">The Moon</option><option value="sun">The Sun</option><option value="mercury">Mercury</option><option value="venus">Venus</option><option value="earth">Earth</option><option value="mars">Mars</option><option value="jupiter">Jupiter</option><option value="saturn">Saturn</option><option value="uranus">Uranus</option><option value="neptune">Neptune</option><option value="proxima">Proxima Centauri</option><option value="sirius">Sirius</option><option value="vega">Vega</option><option value="polaris">Polaris</option><option value="betelgeuse">Betelgeuse</option><option value="andromeda">Andromeda Galaxy</option></select><div class="result" aria-live="polite"><span>LIGHT TRAVEL TIME FROM EARTH</span><strong id="distance-result">1.3 seconds</strong><p id="distance-detail">About 384,400 km away.</p></div><p class="fine-print">Approximate one-way light travel times. Planetary distances vary with orbital positions; these are illustrative typical distances, not live measurements. Earth is measured from Earth’s surface to itself.</p></div></div></section>
+<section class="about wrap" id="about"><div><p class="section-note">BEHIND THE LAB</p><h2>Made for<br><em>looking up.</em></h2></div><div><p>The Curiosity Lab is a small corner of the internet for the infinitely curious. Built as a place to pause, explore, and appreciate the universe we call home.</p><a href="https://github.com/ramasham" target="_blank" rel="noopener noreferrer">Meet the creator on GitHub ↗</a></div></section>
+</main><footer class="wrap"><span>THE CURIOSITY LAB<span class="brand-dot">.</span></span><span>STAY CURIOUS. KEEP LOOKING UP.</span><a href="#top">Back to the beginning ↑</a></footer>
+<dialog id="exhibit-dialog" aria-labelledby="dialog-title"><div class="dialog-inner"><button class="dialog-close" type="button" aria-label="Close exhibit">×</button><div class="dialog-image-wrap"><img id="dialog-image" src="assets/sun.jpg" alt=""><p id="dialog-image-label"></p></div><div class="dialog-content"><p class="section-note" id="dialog-category"></p><h2 id="dialog-title"></h2><p class="dialog-intro" id="dialog-intro"></p><dl id="dialog-facts"></dl><h3>Look closer</h3><p id="dialog-extra"></p><div id="nasa-explorer" class="nasa-explorer" hidden><div class="nasa-explorer-heading"><div><h3>Explore with NASA</h3><p>Take a closer look with NASA’s interactive 3D visualization.</p></div></div><div class="nasa-actions"><button id="nasa-embed-toggle" type="button" aria-haspopup="dialog" aria-controls="nasa-viewer-dialog">View in 3D</button></div><p class="nasa-explorer-note">NASA’s interactive requires an internet connection and compatible graphics. If it doesn’t load, open it in a new tab.</p></div><figure id="mercury-surface" class="surface-view" hidden><img src="assets/mercury-crater-nasa.jpg" alt="MESSENGER spacecraft close-up of a crater on Mercury" loading="lazy"><figcaption>A close view of a crater on Mercury, captured by MESSENGER. Image: NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington. <a href="https://images.nasa.gov/details/PIA18372" target="_blank" rel="noopener noreferrer">Image source &amp; credits ↗</a></figcaption></figure><p class="dialog-credit" id="dialog-credit"></p><a id="dialog-source" href="#" target="_blank" rel="noopener noreferrer">Image source &amp; credits ↗</a><a id="dialog-reference" href="https://science.nasa.gov/" target="_blank" rel="noopener noreferrer">Explore NASA Science ↗</a></div></div></dialog>
+<dialog id="nasa-viewer-dialog" class="nasa-viewer" aria-labelledby="nasa-viewer-title">
+  <header class="nasa-viewer-header">
+    <div class="nasa-viewer-title"><span>NASA / 3D EXPLORER</span><h2 id="nasa-viewer-title"></h2></div>
+    <div class="nasa-viewer-controls"><p>Viewer blocked? <a id="nasa-viewer-link" href="https://science.nasa.gov/eyes/" target="_blank" rel="noopener noreferrer">Open on NASA ↗</a></p><button id="nasa-viewer-close" type="button" aria-label="Close 3D viewer">×</button></div>
   </header>
-
-  <main id="main">
-    <section class="hero" id="home" aria-labelledby="home-title">
-      <div class="container hero-inner">
-        <div class="hero-copy">
-          <h1 id="home-title">Curious about<br><em>what's underneath.</em></h1>
-          <p class="hero-context">Computer science <span aria-hidden="true">/</span> Backend &amp; systems</p>
-          <p class="hero-description">A computer science student exploring backend engineering, operating systems, and how computers work from the inside out.</p>
-          <a class="button" href="#projects">Explore the work <span aria-hidden="true">&rarr;</span></a>
-        </div>
-        <div class="system-art" aria-hidden="true">
-          <div class="system-orbit orbit-one"></div><div class="system-orbit orbit-two"></div>
-          <div class="system-core"><span>inside</span><strong>the<br>system<span>.</span></strong></div>
-          <div class="system-node node-memory"><span></span><span></span><span></span><span></span></div>
-          <div class="system-node node-flow"><i></i><i></i><i></i></div>
-          <div class="system-cross cross-one">+</div><div class="system-cross cross-two">+</div>
-        </div>
-        <a class="hero-project" href="#project-webserv"><span>Featured work</span><strong>webserv</strong><span>HTTP/1.0 server <b aria-hidden="true">&rarr;</b></span></a>
-      </div>
-    </section>
-
-    <section class="section about-section" id="about" aria-labelledby="about-title">
-      <div class="container section-grid">
-        <h2 id="about-title">A little about me.</h2>
-        <div class="section-copy">
-          <p class="lead">I'm a fourth-year Computer Science student who has completed the Common Core at 42 Amman.</p>
-          <p>I'm interested in backend engineering, operating systems, algorithms, and understanding how computers work internally. My projects are a way to explore these ideas through building.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section projects-section" id="projects" aria-labelledby="projects-title">
-      <div class="container">
-        <div class="section-heading"><h2 id="projects-title">Built to understand.</h2><p>Selected work across backend and systems programming.</p></div>
-        <div class="featured-grid">
-          <article class="project-card project-server" id="project-webserv" data-reveal>
-            <div class="project-content"><p class="project-category">Backend / HTTP</p><h3>webserv</h3><p>Implemented an HTTP/1.0 server.</p></div>
-            <div class="server-visual" aria-hidden="true"><span>request</span><div class="server-path"><i></i><i></i><i></i></div><strong>HTTP</strong><div class="server-path reverse"><i></i><i></i><i></i></div><span>response</span></div>
-          </article>
-          <article class="project-card project-memory" id="project-malloc" data-reveal>
-            <div class="project-content"><p class="project-category">Systems / Memory</p><h3>ft_malloc</h3><p>Implemented custom memory allocation functions in C, including malloc, free, and realloc.</p></div>
-            <div class="memory-visual" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-          </article>
-          <article class="project-card project-shell" id="project-minishell" data-reveal>
-            <div class="project-content"><p class="project-category">Systems / Processes</p><h3>minishell</h3><p>Built a Unix-like shell in C.</p></div>
-            <div class="shell-visual" aria-hidden="true"><span>input</span><div class="shell-line"></div><span>process</span><div class="shell-line"></div><span>output</span></div>
-          </article>
-        </div>
-        <h3 class="more-heading">More explorations</h3>
-        <div class="more-projects">
-          <article id="project-pipex"><h4>pipex</h4><p>Worked with Unix pipes and process execution.</p></article>
-          <article id="project-inception"><h4>Inception</h4><p>Worked with Docker containers.</p></article>
-          <article id="project-transcendence"><h4>ft_transcendence</h4><p>Developed a real-time quiz platform.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section skills-section" id="skills" aria-labelledby="skills-title">
-      <div class="container section-grid">
-        <div>
-          <h2 id="skills-title">Areas of practice.</h2>
-          <p class="section-intro">Technologies and concepts reflected in my project work.</p>
-        </div>
-        <div class="skill-groups">
-          <div><h3>Language</h3><p>C</p><a href="#project-malloc">Seen in ft_malloc &rarr;</a></div>
-          <div><h3>Systems</h3><p>Memory allocation, Unix pipes, process execution</p><a href="#project-pipex">Seen in pipex &rarr;</a></div>
-          <div><h3>Backend</h3><p>HTTP/1.0</p><a href="#project-webserv">Seen in webserv &rarr;</a></div>
-          <div><h3>Infrastructure</h3><p>Docker containers</p><a href="#project-inception">Seen in Inception &rarr;</a></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section container contact-section" id="contact" aria-labelledby="contact-title">
-      <h2 id="contact-title">Let's connect.</h2>
-      <p>Contact details will be added here when available.</p>
-    </section>
-  </main>
-
-  <footer class="site-footer"><div class="container footer-inner"><p>Developer portfolio</p><a href="#home">Back to top &uarr;</a></div></footer>
-</body>
-</html>
+  <div id="nasa-viewer-frame" class="nasa-viewer-frame"></div>
+</dialog>
+</body></html>
