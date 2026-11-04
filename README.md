@@ -1,5 +1,3 @@
-*This project has been created as part of the Agentic Workflows curriculum by rsham.*
-
 # Agentic Workflows
 
 ## Description
