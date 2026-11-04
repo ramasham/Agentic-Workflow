@@ -44,3 +44,8 @@ To be documented during implementation.
 
 ## Verification
 During implementation, test keyboard navigation and focus, color contrast, reduced motion, mobile and desktop layouts, content overflow, and operation without JavaScript. Verify all factual claims and destinations before publishing. No website testing has been performed as part of this brief.
+
+### Design improvement 1 — mobile navigation and touch targets
+- Applied Impeccable's web adaptation guidance: preserve the existing navigation and visual identity, increase touch targets, space mobile links, and retain keyboard focus indicators.
+- Playwright MCP measurements before → after, in CSS pixels, at both 375×812 and 1440×900: navigation links 39.8px high → 44px high (smallest width 43.3px → 44px); project overview 218.9×26.4 → 218.1×44; back to top 98.8×23.8 → 98.8×44; brand 155×26.4 → 154.4×44. Explore projects remained 221×53.6.
+- At both tested widths, document width equaled viewport width before and after. On the updated page, keyboard Tab reached the brand, Home, and About links with a visible 3px focus outline. These browser checks are not a full accessibility audit or real-device touch test.
