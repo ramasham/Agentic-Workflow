@@ -174,12 +174,6 @@ For the original agent-based exercises, refer to the individual project notes an
 
 ---
 
-## 🔗 Resources
-
-[OpenCode](https://opencode.ai/docs/) · [Model Context Protocol](https://modelcontextprotocol.io/) · [Playwright](https://playwright.dev/) · [Firecrawl](https://docs.firecrawl.dev/) · [MDN](https://developer.mozilla.org/) · [NASA Science](https://science.nasa.gov/)
-
----
-
 ### Final thought
 
 The most interesting part of this project wasn't what AI could generate.
