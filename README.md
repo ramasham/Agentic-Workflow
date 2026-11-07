@@ -8,8 +8,6 @@ An exploration of AI-powered software development — from giving an agent its f
 
 ---
 
-![The Curiosity Lab — Interactive astronomy website](README-assets/curiosity-lab-cover.jpg)
-
 *The Curiosity Lab — an interactive astronomy website developed through this project.*
 
 ## The idea behind this project
